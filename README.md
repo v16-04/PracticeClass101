@@ -79,6 +79,12 @@ find . -type f -print0 | xargs -0 sed -i 's/Leisurecoin/PRACTICE1/g'
 
 find . -type f -print0 | xargs -0 sed -i 's/LSR/PRTC/g'
 
+find . -type f -print0 | xargs -0 sed -i 's/LSR/PRTC/g'
+
+find . -type f -print0 | xargs -0 sed -i 's/PARK/PRTC/g'  // found weird ticker
+
+find . -type f -print0 | xargs -0 sed -i 's/EPIC/PRTC/g'  // found weird ticker (probably a fork of EPIC coin)
+
 find . -type f -print0 | xargs -0 sed -i 's/9333/8888/g'  //(P2P)
 
 find . -type f -print0 | xargs -0 sed -i 's/9332/8887/g'  //(RPC)
@@ -87,5 +93,9 @@ find . -type f -print0 | xargs -0 sed -i 's/19333/18888/g'  //(P2P) -testnet
 
 find . -type f -print0 | xargs -0 sed -i 's/19332/18887/g'  //(RPC) -testnet
 
+find . -type f -print0 | xargs -0 sed -i 's/34120/8888/g'
 
+find . -type f -print0 | xargs -0 sed -i 's/34121/8887/g'
 
+=========================================================================================================
+change all names & file names + port --> then re-upload
