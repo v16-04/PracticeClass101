@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/LeisureCoin/LeisureCoin
+url=https://github.com/PRACTICE1/PRACTICE1
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the LeisureCoin, gitian-builder, gitian.sigs, and LeisureCoin-detached-sigs.
+Run this script from the directory containing the PRACTICE1, gitian-builder, gitian.sigs, and PRACTICE1-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/LeisureCoin/LeisureCoin
+-u|--url	Specify the URL of the repository. Default is https://github.com/PRACTICE1/PRACTICE1
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -237,8 +237,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/LeisureCoin/gitian.sigs.git
-    git clone https://github.com/LeisureCoin/LeisureCoin-detached-sigs.git
+    git clone https://github.com/PRACTICE1/gitian.sigs.git
+    git clone https://github.com/PRACTICE1/PRACTICE1-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./LeisureCoin
+pushd ./PRACTICE1
 git fetch
 git checkout ${COMMIT}
 popd
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./LeisureCoin-binaries/${VERSION}
+	mkdir -p ./PRACTICE1-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -271,7 +271,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../LeisureCoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../PRACTICE1/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -279,9 +279,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit LeisureCoin=${COMMIT} --url LeisureCoin=${url} ../LeisureCoin/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/LeisureCoin-*.tar.gz build/out/src/LeisureCoin-*.tar.gz ../LeisureCoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit PRACTICE1=${COMMIT} --url PRACTICE1=${url} ../PRACTICE1/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/PRACTICE1-*.tar.gz build/out/src/PRACTICE1-*.tar.gz ../PRACTICE1-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -289,10 +289,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit LeisureCoin=${COMMIT} --url LeisureCoin=${url} ../LeisureCoin/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/LeisureCoin-*-win-unsigned.tar.gz inputs/LeisureCoin-win-unsigned.tar.gz
-	    mv build/out/LeisureCoin-*.zip build/out/LeisureCoin-*.exe ../LeisureCoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit PRACTICE1=${COMMIT} --url PRACTICE1=${url} ../PRACTICE1/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/PRACTICE1-*-win-unsigned.tar.gz inputs/PRACTICE1-win-unsigned.tar.gz
+	    mv build/out/PRACTICE1-*.zip build/out/PRACTICE1-*.exe ../PRACTICE1-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -300,10 +300,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit LeisureCoin=${COMMIT} --url LeisureCoin=${url} ../LeisureCoin/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/LeisureCoin-*-osx-unsigned.tar.gz inputs/LeisureCoin-osx-unsigned.tar.gz
-	    mv build/out/LeisureCoin-*.tar.gz build/out/LeisureCoin-*.dmg ../LeisureCoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit PRACTICE1=${COMMIT} --url PRACTICE1=${url} ../PRACTICE1/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/PRACTICE1-*-osx-unsigned.tar.gz inputs/PRACTICE1-osx-unsigned.tar.gz
+	    mv build/out/PRACTICE1-*.tar.gz build/out/PRACTICE1-*.dmg ../PRACTICE1-binaries/${VERSION}
 	fi
 	# AArch64
 	if [[ $aarch64 = true ]]
@@ -311,9 +311,9 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} AArch64"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit LeisureCoin=${COMMIT} --url LeisureCoin=${url} ../LeisureCoin/contrib/gitian-descriptors/gitian-aarch64.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-aarch64.yml
-	    mv build/out/LeisureCoin-*.tar.gz build/out/src/LeisureCoin-*.tar.gz ../LeisureCoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit PRACTICE1=${COMMIT} --url PRACTICE1=${url} ../PRACTICE1/contrib/gitian-descriptors/gitian-aarch64.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-aarch64.yml
+	    mv build/out/PRACTICE1-*.tar.gz build/out/src/PRACTICE1-*.tar.gz ../PRACTICE1-binaries/${VERSION}
 	popd
 
         if [[ $commitFiles = true ]]
@@ -340,32 +340,32 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../LeisureCoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../PRACTICE1/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../LeisureCoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../PRACTICE1/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../LeisureCoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../PRACTICE1/contrib/gitian-descriptors/gitian-osx.yml
 	# AArch64
 	echo ""
 	echo "Verifying v${VERSION} AArch64"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../LeisureCoin/contrib/gitian-descriptors/gitian-aarch64.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../PRACTICE1/contrib/gitian-descriptors/gitian-aarch64.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../LeisureCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../PRACTICE1/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../LeisureCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../PRACTICE1/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -380,10 +380,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../LeisureCoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/LeisureCoin-*win64-setup.exe ../LeisureCoin-binaries/${VERSION}
-	    mv build/out/LeisureCoin-*win32-setup.exe ../LeisureCoin-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../PRACTICE1/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/PRACTICE1-*win64-setup.exe ../PRACTICE1-binaries/${VERSION}
+	    mv build/out/PRACTICE1-*win32-setup.exe ../PRACTICE1-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -391,9 +391,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../LeisureCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/LeisureCoin-osx-signed.dmg ../LeisureCoin-binaries/${VERSION}/LeisureCoin-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../PRACTICE1/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/PRACTICE1-osx-signed.dmg ../PRACTICE1-binaries/${VERSION}/PRACTICE1-${VERSION}-osx.dmg
 	fi
 	popd
 
