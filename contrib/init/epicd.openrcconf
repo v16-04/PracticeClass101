@@ -1,25 +1,25 @@
-# /etc/conf.d/LeisureCoind: config file for /etc/init.d/LeisureCoind
+# /etc/conf.d/PRACTICE1d: config file for /etc/init.d/PRACTICE1d
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/LeisureCoin/LeisureCoin.conf"
+#BITCOIND_CONFIGFILE="/etc/PRACTICE1/PRACTICE1.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/LeisureCoind"
+#BITCOIND_PIDDIR="/var/run/PRACTICE1d"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/LeisureCoind.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/PRACTICE1d.pid"
 
-# Where to write LeisureCoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/LeisureCoind"
+# Where to write PRACTICE1d data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/PRACTICE1d"
 
-# User and group to own LeisureCoind process
-#BITCOIND_USER="LeisureCoin"
-#BITCOIND_GROUP="LeisureCoin"
+# User and group to own PRACTICE1d process
+#BITCOIND_USER="PRACTICE1"
+#BITCOIND_GROUP="PRACTICE1"
 
-# Path to LeisureCoind executable
-#BITCOIND_BIN="/usr/bin/LeisureCoind"
+# Path to PRACTICE1d executable
+#BITCOIND_BIN="/usr/bin/PRACTICE1d"
 
-# Nice value to run LeisureCoind under
+# Nice value to run PRACTICE1d under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
