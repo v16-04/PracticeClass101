@@ -1,19 +1,19 @@
 [Unit]
-Description=LeisureCoin's distributed currency daemon
+Description=PRACTICE1's distributed currency daemon
 After=network.target
 
 [Service]
-User=LeisureCoin
-Group=LeisureCoin
+User=PRACTICE1
+Group=PRACTICE1
 
 Type=forking
-PIDFile=/var/lib/LeisureCoind/LeisureCoind.pid
+PIDFile=/var/lib/PRACTICE1d/PRACTICE1d.pid
 
-ExecStart=/usr/bin/LeisureCoind -daemon -pid=/var/lib/LeisureCoind/LeisureCoind.pid \
-          -conf=/etc/LeisureCoin/LeisureCoin.conf -datadir=/var/lib/LeisureCoind
+ExecStart=/usr/bin/PRACTICE1d -daemon -pid=/var/lib/PRACTICE1d/PRACTICE1d.pid \
+          -conf=/etc/PRACTICE1/PRACTICE1.conf -datadir=/var/lib/PRACTICE1d
 
-ExecStop=-/usr/bin/LeisureCoin-cli -conf=/etc/LeisureCoin/LeisureCoin.conf \
-         -datadir=/var/lib/LeisureCoind stop
+ExecStop=-/usr/bin/PRACTICE1-cli -conf=/etc/PRACTICE1/PRACTICE1.conf \
+         -datadir=/var/lib/PRACTICE1d stop
 
 Restart=always
 PrivateTmp=true

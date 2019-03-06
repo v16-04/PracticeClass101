@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: LeisureCoind.service
-Upstart: LeisureCoind.conf
-OpenRC:  LeisureCoind.openrc
-         LeisureCoind.openrcconf
-CentOS:  LeisureCoind.init
+SystemD: PRACTICE1d.service
+Upstart: PRACTICE1d.conf
+OpenRC:  PRACTICE1d.openrc
+         PRACTICE1d.openrcconf
+CentOS:  PRACTICE1d.init
 
 have been made available to assist packagers in creating node packages here.
 
