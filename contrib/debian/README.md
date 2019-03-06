@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package LeisureCoind/LeisureCoin-qt
-for Debian-based Linux systems. If you compile LeisureCoind/LeisureCoin-qt yourself, there are some useful files here.
+This directory contains files used to package PRACTICE1d/PRACTICE1-qt
+for Debian-based Linux systems. If you compile PRACTICE1d/PRACTICE1-qt yourself, there are some useful files here.
 
-## LeisureCoin: URI support ##
+## PRACTICE1: URI support ##
 
 
-LeisureCoin-qt.desktop  (Gnome / Open Desktop)
+PRACTICE1-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install LeisureCoin-qt.desktop
+	sudo desktop-file-install PRACTICE1-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your LeisureCoinqt binary to `/usr/bin`
-and the `../../share/pixmaps/LeisureCoin128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your PRACTICE1qt binary to `/usr/bin`
+and the `../../share/pixmaps/PRACTICE1128.png` to `/usr/share/pixmaps`
 
-LeisureCoin-qt.protocol (KDE)
+PRACTICE1-qt.protocol (KDE)
 
