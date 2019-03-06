@@ -1,14 +1,14 @@
-LeisureCoin Core integration/staging repository
+PRACTICE1 Core integration/staging repository
 =================================================
 
-LeisureCoin (LeisureCoin)
+PRACTICE1 (PRACTICE1)
 
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftTX_.
-- Masternode is collateral of 10,000 LeisureCoin.
+- Masternode is collateral of 10,000 PRACTICE1.
 
 
 
-(Above this line = original README.md from LeisureCoinProject - sample source)
+(Above this line = original README.md from PRACTICE1Project - sample source)
 ------------------------------------------------------------------------------
 
 
@@ -67,35 +67,25 @@ SAMPLE KEY3
 Name & Port changes
 ===================
 
-find . -type f -print0 | xargs -0 sed -i 's/LeisureCoins/PRACTICE1/g'
+find . -type f -print0 | xargs -0 sed -i 's/PRACTICE1/PRACTICE1/g'
 
-find . -type f -print0 | xargs -0 sed -i 's/leisurecoins/PRACTICE1/g'
+find . -type f -print0 | xargs -0 sed -i 's/PRACTICE1/PRACTICE1/g'
 
-find . -type f -print0 | xargs -0 sed -i 's/LeisureCoin/PRACTICE1/g'
+find . -type f -print0 | xargs -0 sed -i 's/PRACTICE1/PRACTICE1/g'
 
-find . -type f -print0 | xargs -0 sed -i 's/leisurecoin/PRACTICE1/g'
+find . -type f -print0 | xargs -0 sed -i 's/PRACTICE1/PRACTICE1/g'
 
-find . -type f -print0 | xargs -0 sed -i 's/Leisurecoin/PRACTICE1/g'
+find . -type f -print0 | xargs -0 sed -i 's/PRACTICE1/PRACTICE1/g'
 
-find . -type f -print0 | xargs -0 sed -i 's/LSR/PRTC/g'
+find . -type f -print0 | xargs -0 sed -i 's/PRTC/PRTC/g'
 
-find . -type f -print0 | xargs -0 sed -i 's/LSR/PRTC/g'
+find . -type f -print0 | xargs -0 sed -i 's/8888/8888/g'  //(P2P)
 
-find . -type f -print0 | xargs -0 sed -i 's/PARK/PRTC/g'  // found weird ticker
+find . -type f -print0 | xargs -0 sed -i 's/8887/8887/g'  //(RPC)
 
-find . -type f -print0 | xargs -0 sed -i 's/EPIC/PRTC/g'  // found weird ticker (probably a fork of EPIC coin)
+find . -type f -print0 | xargs -0 sed -i 's/18888/18888/g'  //(P2P) -testnet
 
-find . -type f -print0 | xargs -0 sed -i 's/9333/8888/g'  //(P2P)
+find . -type f -print0 | xargs -0 sed -i 's/18887/18887/g'  //(RPC) -testnet
 
-find . -type f -print0 | xargs -0 sed -i 's/9332/8887/g'  //(RPC)
 
-find . -type f -print0 | xargs -0 sed -i 's/19333/18888/g'  //(P2P) -testnet
 
-find . -type f -print0 | xargs -0 sed -i 's/19332/18887/g'  //(RPC) -testnet
-
-find . -type f -print0 | xargs -0 sed -i 's/34120/8888/g'
-
-find . -type f -print0 | xargs -0 sed -i 's/34121/8887/g'
-
-=========================================================================================================
-change all names & file names + port --> then re-upload

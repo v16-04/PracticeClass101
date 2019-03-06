@@ -6,22 +6,22 @@ define(_CLIENT_VERSION_REVISION, 0)
 define(_CLIENT_VERSION_BUILD, 4)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2019)
-AC_INIT([LeisureCoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.leisurecoins.org],[LeisureCoin])
+AC_INIT([PRACTICE1 Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.PRACTICE1.org],[PRACTICE1])
 AC_CONFIG_SRCDIR([src/main.cpp])
-AC_CONFIG_HEADERS([src/config/LeisureCoin-config.h])
+AC_CONFIG_HEADERS([src/config/PRACTICE1-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=LeisureCoind
-BITCOIN_GUI_NAME=LeisureCoin-qt
-BITCOIN_CLI_NAME=LeisureCoin-cli
-BITCOIN_TX_NAME=LeisureCoin-tx
+BITCOIN_DAEMON_NAME=PRACTICE1d
+BITCOIN_GUI_NAME=PRACTICE1-qt
+BITCOIN_CLI_NAME=PRACTICE1-cli
+BITCOIN_TX_NAME=PRACTICE1-tx
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef LeisureCoin_CONFIG_H])
-AH_TOP([#define LeisureCoin_CONFIG_H])
-AH_BOTTOM([#endif //LeisureCoin_CONFIG_H])
+AH_TOP([#ifndef PRACTICE1_CONFIG_H])
+AH_TOP([#define PRACTICE1_CONFIG_H])
+AH_BOTTOM([#endif //PRACTICE1_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME
@@ -199,7 +199,7 @@ CPPFLAGS="$CPPFLAGS -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build LeisureCoin-cli LeisureCoin-tx (default=yes)])],
+  [build PRACTICE1-cli PRACTICE1-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -211,7 +211,7 @@ AC_ARG_WITH([libs],
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
-  [build LeisureCoind daemon (default=yes)])],
+  [build PRACTICE1d daemon (default=yes)])],
   [build_bitcoind=$withval],
   [build_bitcoind=yes])
 
@@ -403,7 +403,7 @@ AC_C_BIGENDIAN([AC_MSG_ERROR("Big Endian not supported")])
 dnl Check for pthread compile/link requirements
 AX_PTHREAD
 
-# The following macro will add the necessary defines to LeisureCoin-config.h, but
+# The following macro will add the necessary defines to PRACTICE1-config.h, but
 # they also need to be passed down to any subprojects. Pull the results out of
 # the cache and add them to CPPFLAGS.
 AC_SYS_LARGEFILE
@@ -836,11 +836,11 @@ LIBS="$LIBS_TEMP"
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build LeisureCoind])
+AC_MSG_CHECKING([whether to build PRACTICE1d])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (LeisureCoin-cli LeisureCoin-tx)])
+AC_MSG_CHECKING([whether to build utils (PRACTICE1-cli PRACTICE1-tx)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 
@@ -940,7 +940,7 @@ if test x$bitcoin_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_LeisureCoin-qt])
+  AC_MSG_CHECKING([whether to build test_PRACTICE1-qt])
   if test x$use_tests$bitcoin_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="test"
@@ -951,7 +951,7 @@ fi
 
 AM_CONDITIONAL([ENABLE_ZMQ], [test "x$use_zmq" = "xyes"])
 
-AC_MSG_CHECKING([whether to build test_LeisureCoin])
+AC_MSG_CHECKING([whether to build test_PRACTICE1])
 if test x$use_tests = xyes; then
   AC_MSG_RESULT([yes])
   BUILD_TEST="test"
