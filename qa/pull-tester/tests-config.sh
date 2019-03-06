@@ -3,7 +3,7 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-BUILDDIR="/home/repo/wallet/LeisureCoin-Core"
+BUILDDIR="/home/repo/wallet/PRACTICE1-Core"
 EXEEXT=".exe"
 
 # These will turn into comments if they were disabled when configuring.
@@ -11,6 +11,6 @@ ENABLE_WALLET=1
 ENABLE_UTILS=1
 ENABLE_BITCOIND=1
 
-REAL_BITCOIND="$BUILDDIR/src/LeisureCoind${EXEEXT}"
-REAL_BITCOINCLI="$BUILDDIR/src/LeisureCoin-cli${EXEEXT}"
+REAL_BITCOIND="$BUILDDIR/src/PRACTICE1d${EXEEXT}"
+REAL_BITCOINCLI="$BUILDDIR/src/PRACTICE1-cli${EXEEXT}"
 
