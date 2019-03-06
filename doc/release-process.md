@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations see [translation_process.md](https://github.com/LeisureCoin/LeisureCoin/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations see [translation_process.md](https://github.com/PRACTICE1/PRACTICE1/blob/master/doc/translation_process.md#synchronising-translations).
 
 Before every minor and major release:
 
@@ -24,12 +24,12 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/LeisureCoin/gitian.sigs.git
-    git clone https://github.com/LeisureCoin/LeisureCoin-detached-sigs.git
+    git clone https://github.com/PRACTICE1/gitian.sigs.git
+    git clone https://github.com/PRACTICE1/PRACTICE1-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/LeisureCoin/LeisureCoin.git
+    git clone https://github.com/PRACTICE1/PRACTICE1.git
 
-### LeisureCoin maintainers/release engineers, suggestion for writing release notes
+### PRACTICE1 maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -50,7 +50,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./LeisureCoin
+    pushd ./PRACTICE1
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -84,7 +84,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../LeisureCoin/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../PRACTICE1/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -92,55 +92,55 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url LeisureCoin=/path/to/LeisureCoin,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url PRACTICE1=/path/to/PRACTICE1,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign LeisureCoin Core for Linux, Windows, and OS X:
+### Build and sign PRACTICE1 Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit LeisureCoin=v${VERSION} ../LeisureCoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/LeisureCoin-*.tar.gz build/out/src/LeisureCoin-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit PRACTICE1=v${VERSION} ../PRACTICE1/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/PRACTICE1-*.tar.gz build/out/src/PRACTICE1-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit LeisureCoin=v${VERSION} ../LeisureCoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/LeisureCoin-*-win-unsigned.tar.gz inputs/LeisureCoin-win-unsigned.tar.gz
-    mv build/out/LeisureCoin-*.zip build/out/LeisureCoin-*.exe ../
+    ./bin/gbuild --memory 3000 --commit PRACTICE1=v${VERSION} ../PRACTICE1/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/PRACTICE1-*-win-unsigned.tar.gz inputs/PRACTICE1-win-unsigned.tar.gz
+    mv build/out/PRACTICE1-*.zip build/out/PRACTICE1-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit LeisureCoin=v${VERSION} ../LeisureCoin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/LeisureCoin-*-osx-unsigned.tar.gz inputs/LeisureCoin-osx-unsigned.tar.gz
-    mv build/out/LeisureCoin-*.tar.gz build/out/LeisureCoin-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit PRACTICE1=v${VERSION} ../PRACTICE1/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/PRACTICE1-*-osx-unsigned.tar.gz inputs/PRACTICE1-osx-unsigned.tar.gz
+    mv build/out/PRACTICE1-*.tar.gz build/out/PRACTICE1-*.dmg ../
 
-    ./bin/gbuild --memory 3000 --commit LeisureCoin=v${VERSION} ../LeisureCoin/contrib/gitian-descriptors/gitian-aarch64.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-aarch64.yml
-    mv build/out/LeisureCoin-*.tar.gz build/out/src/LeisureCoin-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit PRACTICE1=v${VERSION} ../PRACTICE1/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-aarch64.yml
+    mv build/out/PRACTICE1-*.tar.gz build/out/src/PRACTICE1-*.tar.gz ../
     popd
 
 Build output expected:
 
-  1. source tarball (`LeisureCoin-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`LeisureCoin-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`LeisureCoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `LeisureCoin-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`LeisureCoin-${VERSION}-osx-unsigned.dmg`, `LeisureCoin-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`PRACTICE1-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`PRACTICE1-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`PRACTICE1-${VERSION}-win[32|64]-setup-unsigned.exe`, `PRACTICE1-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`PRACTICE1-${VERSION}-osx-unsigned.dmg`, `PRACTICE1-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import LeisureCoin/contrib/gitian-keys/*.pgp
+    gpg --import PRACTICE1/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../LeisureCoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../LeisureCoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../LeisureCoin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../LeisureCoin/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../PRACTICE1/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../PRACTICE1/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../PRACTICE1/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../PRACTICE1/contrib/gitian-descriptors/gitian-aarch64.yml
     popd
 
 ### Next steps:
@@ -162,22 +162,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer LeisureCoin-osx-unsigned.tar.gz to osx for signing
-    tar xf LeisureCoin-osx-unsigned.tar.gz
+    transfer PRACTICE1-osx-unsigned.tar.gz to osx for signing
+    tar xf PRACTICE1-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf LeisureCoin-win-unsigned.tar.gz
+    tar xf PRACTICE1-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/LeisureCoin-detached-sigs
+    cd ~/PRACTICE1-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -190,25 +190,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [LeisureCoin-detached-sigs](https://github.com/LeisureCoin/LeisureCoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [PRACTICE1-detached-sigs](https://github.com/PRACTICE1/PRACTICE1-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../LeisureCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../LeisureCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/LeisureCoin-osx-signed.dmg ../LeisureCoin-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../PRACTICE1/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../PRACTICE1/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/PRACTICE1-osx-signed.dmg ../PRACTICE1-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../LeisureCoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../LeisureCoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../LeisureCoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/LeisureCoin-*win64-setup.exe ../LeisureCoin-${VERSION}-win64-setup.exe
-    mv build/out/LeisureCoin-*win32-setup.exe ../LeisureCoin-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../PRACTICE1/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../PRACTICE1/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../PRACTICE1/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/PRACTICE1-*win64-setup.exe ../PRACTICE1-${VERSION}-win64-setup.exe
+    mv build/out/PRACTICE1-*win32-setup.exe ../PRACTICE1-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -230,17 +230,17 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-LeisureCoin-${VERSION}-aarch64-linux-gnu.tar.gz
-LeisureCoin-${VERSION}-arm-linux-gnueabihf.tar.gz
-LeisureCoin-${VERSION}-i686-pc-linux-gnu.tar.gz
-LeisureCoin-${VERSION}-x86_64-linux-gnu.tar.gz
-LeisureCoin-${VERSION}-osx64.tar.gz
-LeisureCoin-${VERSION}-osx.dmg
-LeisureCoin-${VERSION}.tar.gz
-LeisureCoin-${VERSION}-win32-setup.exe
-LeisureCoin-${VERSION}-win32.zip
-LeisureCoin-${VERSION}-win64-setup.exe
-LeisureCoin-${VERSION}-win64.zip
+PRACTICE1-${VERSION}-aarch64-linux-gnu.tar.gz
+PRACTICE1-${VERSION}-arm-linux-gnueabihf.tar.gz
+PRACTICE1-${VERSION}-i686-pc-linux-gnu.tar.gz
+PRACTICE1-${VERSION}-x86_64-linux-gnu.tar.gz
+PRACTICE1-${VERSION}-osx64.tar.gz
+PRACTICE1-${VERSION}-osx.dmg
+PRACTICE1-${VERSION}.tar.gz
+PRACTICE1-${VERSION}-win32-setup.exe
+PRACTICE1-${VERSION}-win32.zip
+PRACTICE1-${VERSION}-win64-setup.exe
+PRACTICE1-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
@@ -262,10 +262,10 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/LeisureCoin, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/PRACTICE1, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/LeisureCoin/LeisureCoin/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/PRACTICE1/PRACTICE1/releases/new) with a link to the archived release notes.
 
   - Celebrate

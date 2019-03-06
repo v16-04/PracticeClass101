@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build LeisureCoind (headless client) for OSX.
+This guide will show you how to build PRACTICE1d (headless client) for OSX.
 
 Notes
 -----
@@ -40,14 +40,14 @@ Instructions: Homebrew
 
         brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5 libzmq
 
-### Building `LeisureCoind`
+### Building `PRACTICE1d`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/LeisureCoinCoinDev/LeisureCoin.git
-        cd LeisureCoin
+        git clone https://github.com/PRACTICE1CoinDev/PRACTICE1.git
+        cd PRACTICE1
 
-2.  Build LeisureCoind:
+2.  Build PRACTICE1d:
 
         ./autogen.sh
         ./configure --with-gui=qt5
@@ -57,7 +57,7 @@ Instructions: Homebrew
 
         make check
 
-4.  (Optional) You can also install LeisureCoind to your path:
+4.  (Optional) You can also install PRACTICE1d to your path:
 
         make install
 
@@ -69,7 +69,7 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 1. Make sure you installed everything through homebrew mentioned above
 2. Do a proper ./configure --with-gui=qt5 --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "LeisureCoin-qt" as project name, enter src/qt as location
+4. Enter "PRACTICE1-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -79,11 +79,11 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `LeisureCoind` for your own use.
+You can ignore this section if you are building `PRACTICE1d` for your own use.
 
-LeisureCoind/LeisureCoin-cli binaries are not included in the LeisureCoin-Qt.app bundle.
+PRACTICE1d/PRACTICE1-cli binaries are not included in the PRACTICE1-Qt.app bundle.
 
-If you are building `LeisureCoind` or `LeisureCoin-qt` for others, your build machine should be set up
+If you are building `PRACTICE1d` or `PRACTICE1-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -92,30 +92,30 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see release-process.md for how the LeisureCoin-Qt.app
+Once dependencies are compiled, see release-process.md for how the PRACTICE1-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
 -------
 
-It's now available at `./LeisureCoind`, provided that you are still in the `src`
+It's now available at `./PRACTICE1d`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./LeisureCoind` to get the filename where it should be put, or just try these
+Run `./PRACTICE1d` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=LeisureCoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/LeisureCoin/LeisureCoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/LeisureCoin/LeisureCoin.conf"
+    echo -e "rpcuser=PRACTICE1rpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/PRACTICE1/PRACTICE1.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/PRACTICE1/PRACTICE1.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/LeisureCoin/debug.log
+    tail -f $HOME/Library/Application\ Support/PRACTICE1/debug.log
 
 Other commands:
 -------
 
-    ./LeisureCoind -daemon # to start the LeisureCoin daemon.
-    ./LeisureCoin-cli --help  # for a list of command-line options.
-    ./LeisureCoin-cli help    # When the daemon is running, to get a list of RPC commands
+    ./PRACTICE1d -daemon # to start the PRACTICE1 daemon.
+    ./PRACTICE1-cli --help  # for a list of command-line options.
+    ./PRACTICE1-cli help    # When the daemon is running, to get a list of RPC commands
