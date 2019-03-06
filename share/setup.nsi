@@ -1,4 +1,4 @@
-Name "LeisureCoin Core (-bit)"
+Name "PRACTICE1 Core (-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,23 +6,23 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 1.0.0
-!define COMPANY "LeisureCoin Core project"
+!define COMPANY "PRACTICE1 Core project"
 !define URL https://www.savebitcoin.io
 
 # MUI Symbol Definitions
-!define MUI_ICON "/home/repo/wallet/LeisureCoin-Epic/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/repo/wallet/LeisureCoin-Epic/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/home/repo/wallet/PRACTICE1-Epic/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/repo/wallet/PRACTICE1-Epic/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/home/repo/wallet/LeisureCoin-Epic/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/home/repo/wallet/PRACTICE1-Epic/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER "LeisureCoin Core"
-!define MUI_FINISHPAGE_RUN $INSTDIR\LeisureCoin-qt
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "PRACTICE1 Core"
+!define MUI_FINISHPAGE_RUN $INSTDIR\PRACTICE1-qt
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/repo/wallet/LeisureCoin-Epic/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/repo/wallet/PRACTICE1-Epic/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,18 +48,18 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/repo/wallet/LeisureCoin-Epic/LeisureCoin-${VERSION}-win-setup.exe
+OutFile /home/repo/wallet/PRACTICE1-Epic/PRACTICE1-${VERSION}-win-setup.exe
 !if "" == "64"
-InstallDir $PROGRAMFILES64\LeisureCoin
+InstallDir $PROGRAMFILES64\PRACTICE1
 !else
-InstallDir $PROGRAMFILES\LeisureCoin
+InstallDir $PROGRAMFILES\PRACTICE1
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.1
-VIAddVersionKey ProductName "LeisureCoin Core"
+VIAddVersionKey ProductName "PRACTICE1 Core"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/repo/wallet/LeisureCoin-Epic/release/LeisureCoin-qt
-    File /oname=COPYING.txt /home/repo/wallet/LeisureCoin-Epic/COPYING
-    File /oname=readme.txt /home/repo/wallet/LeisureCoin-Epic/doc/README_windows.txt
+    File /home/repo/wallet/PRACTICE1-Epic/release/PRACTICE1-qt
+    File /oname=COPYING.txt /home/repo/wallet/PRACTICE1-Epic/COPYING
+    File /oname=readme.txt /home/repo/wallet/PRACTICE1-Epic/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/repo/wallet/LeisureCoin-Epic/release/LeisureCoind
-    File /home/repo/wallet/LeisureCoin-Epic/release/LeisureCoin-cli
+    File /home/repo/wallet/PRACTICE1-Epic/release/PRACTICE1d
+    File /home/repo/wallet/PRACTICE1-Epic/release/PRACTICE1-cli
     SetOutPath $INSTDIR\doc
-    File /r /home/repo/wallet/LeisureCoin-Epic/doc\*.*
+    File /r /home/repo/wallet/PRACTICE1-Epic/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 SectionEnd
@@ -91,8 +91,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\LeisureCoin-qt
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\LeisureCoin Core (testnet, -bit).lnk" "$INSTDIR\LeisureCoin-qt" "-testnet" "$INSTDIR\LeisureCoin-qt" 1
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\PRACTICE1-qt
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\PRACTICE1 Core (testnet, -bit).lnk" "$INSTDIR\PRACTICE1-qt" "-testnet" "$INSTDIR\PRACTICE1-qt" 1
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -103,10 +103,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "LeisureCoin" "URL Protocol" ""
-    WriteRegStr HKCR "LeisureCoin" "" "URL:BitcoiGreen"
-    WriteRegStr HKCR "LeisureCoin\DefaultIcon" "" $INSTDIR\LeisureCoin-qt
-    WriteRegStr HKCR "LeisureCoin\shell\open\command" "" '"$INSTDIR\LeisureCoin-qt" "%1"'
+    WriteRegStr HKCR "PRACTICE1" "URL Protocol" ""
+    WriteRegStr HKCR "PRACTICE1" "" "URL:BitcoiGreen"
+    WriteRegStr HKCR "PRACTICE1\DefaultIcon" "" $INSTDIR\PRACTICE1-qt
+    WriteRegStr HKCR "PRACTICE1\shell\open\command" "" '"$INSTDIR\PRACTICE1-qt" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -124,7 +124,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\LeisureCoin-qt
+    Delete /REBOOTOK $INSTDIR\PRACTICE1-qt
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -136,8 +136,8 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\LeisureCoin Core (testnet, -bit).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\LeisureCoin.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\PRACTICE1 Core (testnet, -bit).lnk"
+    Delete /REBOOTOK "$SMSTARTUP\PRACTICE1.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -145,7 +145,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "LeisureCoin"
+    DeleteRegKey HKCR "PRACTICE1"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0
