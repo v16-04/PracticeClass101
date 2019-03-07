@@ -54,13 +54,13 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0,      uint256("0x000008bee9b7f7714e2c7cdaf80af916a107aa3b0f61b91496e614bea9f2fb3d"))
-    (1000,      uint256("0x0703a06a675224d03e0e413a2277aec4067f5d4949b01df0bcfbbd4d1467c15c"))
-    (25000,      uint256("0x7462342a89cfac8115ae7f4baba5c9323686a990cc555aca5879f29ea417fe05"));
+    (0,      uint256("0x00000ef21d678d256b9bc3a3bc0c7c5ec2926a3301408f4d528700e0827082eb"));
+    //(1000,      uint256("0x0703a06a675224d03e0e413a2277aec4067f5d4949b01df0bcfbbd4d1467c15c"))
+    //(25000,      uint256("0x7462342a89cfac8115ae7f4baba5c9323686a990cc555aca5879f29ea417fe05"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1516926684, // * UNIX timestamp of last checkpoint block
+    1551172275, // * UNIX timestamp of last checkpoint block
     0,     // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -97,11 +97,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x54;
-        pchMessageStart[1] = 0xdc;
-        pchMessageStart[2] = 0x12;
-        pchMessageStart[3] = 0xae;
-        vAlertPubKey = ParseHex("04dd48139aa8fdb723a4f2c8e8d9bc536d3a207f1ff271c5136a9b11ff2a3fca943671f8f89c427aefe496e044165050d954a5294fd245aeec2b66de06ff3dd696");
+        pchMessageStart[0] = 0xa4;
+        pchMessageStart[1] = 0xd3;
+        pchMessageStart[2] = 0xb2;
+        pchMessageStart[3] = 0xce;
+        vAlertPubKey = ParseHex("04b6209d7542dd5b6daddb677e0df8020f4e9ab5684c313886127e02cde0ff19f3ea1d4c97af94bbeb15a1436930a884c3bb2cbf6cb69dcf530e8fcc972d24c001");
         nDefaultPort = 8888;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // PRACTICE1 starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 1050000;
@@ -120,34 +120,37 @@ public:
         nLastPOWBlock = 650;
         nModifierUpdateBlock = 1; // we use the version 2 for PRTC
 
-        const char* pszTimestamp = "POLITICO 070618 China slams U.S. over \u2018largest trade war in economic history";
+        const char* pszTimestamp = "Class by Professor Tfinch 2019";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("0423b7af794ec13770d98f5aa1f3956f2df8f6a03867459890f96e4ea77628384f8962bbd7c64286b6794b3341aac7d8d8e9a7df63884e505f8882f69911322264") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1531416388;
-        genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 1590115;
+        genesis.nTime = 1551172275;
+        genesis.nBits = 504365040;
+        genesis.nNonce = 1168826;
+        
+        //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        //printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000008bee9b7f7714e2c7cdaf80af916a107aa3b0f61b91496e614bea9f2fb3d"));
-        assert(genesis.hashMerkleRoot == uint256("0x4ae7b9c4bb852a1a443319cd5332ffe9c7349ad036daeb70b288509bd389505f"));
+        assert(hashGenesisBlock == uint256("0x00000ef21d678d256b9bc3a3bc0c7c5ec2926a3301408f4d528700e0827082eb"));
+        assert(genesis.hashMerkleRoot == uint256("0xb5789963fe108433109c84283c86a7c2b95a55c176762130f967215fbbe1bf2b"));
 
         // DNS Seeding
-        vSeeds.push_back(CDNSSeedData("149.28.114.184", "149.28.114.184"));
-        vSeeds.push_back(CDNSSeedData("149.28.123.112", "149.28.123.112"));
-        vSeeds.push_back(CDNSSeedData("95.179.169.85", "95.179.169.85"));
-        vSeeds.push_back(CDNSSeedData("144.202.7.213", "144.202.7.213"));
+        //vSeeds.push_back(CDNSSeedData("149.28.114.184", "149.28.114.184"));
+        //vSeeds.push_back(CDNSSeedData("149.28.123.112", "149.28.123.112"));
+        //vSeeds.push_back(CDNSSeedData("95.179.169.85", "95.179.169.85"));
+        //vSeeds.push_back(CDNSSeedData("144.202.7.213", "144.202.7.213"));
 
 
-        // PRACTICE1 addresses start with 'L'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 48);
+        // PRACTICE1 addresses start with 'P'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 55);
         // PRACTICE1 script addresses start with '3'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 8);
         // PRACTICE1 private keys start with 'K'
@@ -172,8 +175,8 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "0425327ef0ddc4b289af5aa983da548722bd0c77f58f4a5b18b3c33936cbd07e7d9c7468fa2eece017712dcff60dce354241e2ced0b4c77316a841c43d1d952129";
-        strMasternodePoolDummyAddress = "LSJVWUkt6HtSCY2SaJ2akeyJUg8bg1hW3S";
+        strSporkKey = "049f58cf48a5e38b2f8af1c29c233a805fe818a3084122bdbc84469405d92b3bdc49b890b3e41bf006fe1d223c5a692557271b161efa4f37643bb5621aa9482cd3";
+        strMasternodePoolDummyAddress = "PSJVWUkt6HtSCY2SaJ2akeyJUg8bg1hW3S";
         nStartMasternodePayments = genesis.nTime + 86400; // 24 hours after genesis creation
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
