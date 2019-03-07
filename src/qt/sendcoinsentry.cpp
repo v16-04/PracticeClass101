@@ -31,9 +31,9 @@ SendCoinsEntry::SendCoinsEntry(QWidget* parent) : QStackedWidget(parent),
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal LSR address field
+    // normal PRTC address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying LSR address(es)
+    // just a label for displaying PRTC address(es)
     ui->payTo_is->setFont(GUIUtil::bitcoinAddressFont());
 
     // Connect signals
@@ -99,7 +99,7 @@ void SendCoinsEntry::clear()
     ui->memoTextLabel_s->clear();
     ui->payAmount_s->clear();
 
-    // update the display unit, to not use the default ("LeisureCoin")
+    // update the display unit, to not use the default ("PRACTICE1")
     updateDisplayUnit();
 }
 
