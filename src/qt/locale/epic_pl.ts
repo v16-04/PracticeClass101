@@ -144,8 +144,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LeisureCoin&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE LeisureCoin!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRACTICE1&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE PRACTICE1!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres LeisureCoin jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres PRACTICE1 jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -514,16 +514,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>&amp;Rdzeń LeisureCoin</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>&amp;Rdzeń PRACTICE1</translation>
     </message>
     <message>
-        <source>Send coins to a LeisureCoin address</source>
-        <translation>Wyślij monety do adresu LeisureCoin</translation>
+        <source>Send coins to a PRACTICE1 address</source>
+        <translation>Wyślij monety do adresu PRACTICE1</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and LeisureCoin: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i LeisureCoin:URI)</translation>
+        <source>Request payments (generates QR codes and PRACTICE1: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i PRACTICE1:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -534,24 +534,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About LeisureCoin Core</source>
+        <source>&amp;About PRACTICE1 Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about LeisureCoin Core</source>
+        <source>Show information about PRACTICE1 Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for LeisureCoin</source>
-        <translation>Modyfikuj opcje konfiguracji LeisureCoin</translation>
+        <source>Modify configuration options for PRACTICE1</source>
+        <translation>Modyfikuj opcje konfiguracji PRACTICE1</translation>
     </message>
     <message>
-        <source>Sign messages with your LeisureCoin addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami LeisureCoin, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your PRACTICE1 addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami PRACTICE1, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LeisureCoin addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu LeisureCoin</translation>
+        <source>Verify messages to ensure they were signed with specified PRACTICE1 addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu PRACTICE1</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -578,8 +578,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a LeisureCoin: URI or payment request</source>
-        <translation>Otwórz LeisureCoin: URI i żądanie zapłaty</translation>
+        <source>Open a PRACTICE1: URI or payment request</source>
+        <translation>Otwórz PRACTICE1: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -590,12 +590,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the LeisureCoin Core help message to get a list with possible LeisureCoin command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia LeisureCoin, aby dostać listę możliwych opcji LeisureCoin command-line</translation>
+        <source>Show the PRACTICE1 Core help message to get a list with possible PRACTICE1 command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia PRACTICE1, aby dostać listę możliwych opcji PRACTICE1 command-line</translation>
     </message>
     <message>
-        <source>LeisureCoin Core client</source>
-        <translation>Rdzeń LeisureCoin klient</translation>
+        <source>PRACTICE1 Core client</source>
+        <translation>Rdzeń PRACTICE1 klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -904,8 +904,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>&amp;Rdzeń LeisureCoin</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>&amp;Rdzeń PRACTICE1</translation>
     </message>
     </context>
 <context>
@@ -919,8 +919,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>&amp;Rdzeń LeisureCoin</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>&amp;Rdzeń PRACTICE1</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1161,12 +1161,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start LeisureCoin after logging in to the system.</source>
-        <translation>Automatycznie uruchom LeisureCoin po zalogowaniu do systemu</translation>
+        <source>Automatically start PRACTICE1 after logging in to the system.</source>
+        <translation>Automatycznie uruchom PRACTICE1 po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start LeisureCoin on system login</source>
-        <translation>&amp;Uruchom LeisureCoin podczas logowania do systemu</translation>
+        <source>&amp;Start PRACTICE1 on system login</source>
+        <translation>&amp;Uruchom PRACTICE1 podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1185,12 +1185,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting LeisureCoin.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie LeisureCoin</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRACTICE1.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie PRACTICE1</translation>
     </message>
     <message>
-        <source>Connect to the LeisureCoin network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią LeisureCoin poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the PRACTICE1 network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią PRACTICE1 poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1361,8 +1361,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a LeisureCoin address (e.g. %1)</source>
-        <translation>Wprowadź adres LeisureCoin (np. %1)</translation>
+        <source>Enter a PRACTICE1 address (e.g. %1)</source>
+        <translation>Wprowadź adres PRACTICE1 (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1800,8 +1800,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres LeisureCoin jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres PRACTICE1 jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1835,8 +1835,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>&amp;Rdzeń LeisureCoin</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>&amp;Rdzeń PRACTICE1</translation>
     </message>
     </context>
 <context>
@@ -1927,7 +1927,7 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     </context>
 <context>
-    <name>LeisureCoin-core</name>
+    <name>PRACTICE1-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

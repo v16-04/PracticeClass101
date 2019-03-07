@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi LeisureCoin per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your PRACTICE1 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi PRACTICE1 per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi LeisureCoin per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your PRACTICE1 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi PRACTICE1 per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>LeisureCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LeisureCoins from being stolen by malware infecting your computer.</source>
-        <translation>LeisureCoin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi LeisureCoin dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>PRACTICE1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRACTICE1 from being stolen by malware infecting your computer.</source>
+        <translation>PRACTICE1 verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi PRACTICE1 dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LeisureCoin&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI LeisureCoin&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRACTICE1&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI PRACTICE1&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a LeisureCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo LeisureCoin che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a PRACTICE1 Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo PRACTICE1 che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>L'indirizzo LeisureCoin per firmare il messaggio con</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>L'indirizzo PRACTICE1 per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo LeisureCoin</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo PRACTICE1</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>L'indirizzo LeisureCoin con cui è stato firmato il messaggio</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>L'indirizzo PRACTICE1 con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo LeisureCoin specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo PRACTICE1 specificato</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,16 +586,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Send coins to a LeisureCoin address</source>
-        <translation>Invia monete all'indirizzo LeisureCoin</translation>
+        <source>Send coins to a PRACTICE1 address</source>
+        <translation>Invia monete all'indirizzo PRACTICE1</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and LeisureCoin: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e LeisureCoin: URIs)</translation>
+        <source>Request payments (generates QR codes and PRACTICE1: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e PRACTICE1: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,24 +606,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About LeisureCoin Core</source>
-        <translation>&amp;Informazioni LeisureCoin Core</translation>
+        <source>&amp;About PRACTICE1 Core</source>
+        <translation>&amp;Informazioni PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Show information about LeisureCoin Core</source>
-        <translation>Visualizza informazioni su LeisureCoin Core</translation>
+        <source>Show information about PRACTICE1 Core</source>
+        <translation>Visualizza informazioni su PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LeisureCoin</source>
-        <translation>Modifica le opzioni di configurazione per LeisureCoin</translation>
+        <source>Modify configuration options for PRACTICE1</source>
+        <translation>Modifica le opzioni di configurazione per PRACTICE1</translation>
     </message>
     <message>
-        <source>Sign messages with your LeisureCoin addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi LeisureCoin per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your PRACTICE1 addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi PRACTICE1 per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LeisureCoin addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi LeisureCoin specifici</translation>
+        <source>Verify messages to ensure they were signed with specified PRACTICE1 addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi PRACTICE1 specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -634,16 +634,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a LeisureCoin: URI or payment request</source>
-        <translation>Apri un LeisureCoin: URI o richiesta di pagamento</translation>
+        <source>Open a PRACTICE1: URI or payment request</source>
+        <translation>Apri un PRACTICE1: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the LeisureCoin Core help message to get a list with possible LeisureCoin command-line options</source>
-        <translation>Mostra il messaggio di aiuto LeisureCoin Core per ottenere un elenco con le possibili opzioni di riga di comando LeisureCoin</translation>
+        <source>Show the PRACTICE1 Core help message to get a list with possible PRACTICE1 command-line options</source>
+        <translation>Mostra il messaggio di aiuto PRACTICE1 Core per ottenere un elenco con le possibili opzioni di riga di comando PRACTICE1</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -745,8 +745,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (LeisureCoin.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (LeisureCoin.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (PRACTICE1.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (PRACTICE1.conf)</translation>
     </message>
 </context>
 <context>
@@ -880,8 +880,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -907,8 +907,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1082,8 +1082,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>L'indirizzo LeisureCoin per firmare il messaggio con</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>L'indirizzo PRACTICE1 per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1106,16 +1106,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo LeisureCoin</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo PRACTICE1</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>L'indirizzo LeisureCoin con cui è stato firmato il messaggio</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>L'indirizzo PRACTICE1 con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo LeisureCoin specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo PRACTICE1 specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>LeisureCoin-core</name>
+    <name>PRACTICE1-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

@@ -177,6 +177,6 @@
     </message>
     </context>
 <context>
-    <name>LeisureCoin-core</name>
+    <name>PRACTICE1-core</name>
     </context>
 </TS>

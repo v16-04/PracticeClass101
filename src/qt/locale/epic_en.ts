@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your LeisureCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your PRACTICE1 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your LeisureCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your PRACTICE1 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -216,7 +216,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>LeisureCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LeisureCoins from being stolen by malware infecting your computer.</source>
+        <source>PRACTICE1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRACTICE1 from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -226,7 +226,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LeisureCoin&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRACTICE1&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -302,7 +302,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a LeisureCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a PRACTICE1 Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -313,7 +313,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The LeisureCoin address to sign the message with</source>
+        <source>The PRACTICE1 address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -355,7 +355,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -386,12 +386,12 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>The LeisureCoin address the message was signed with</source>
+        <source>The PRACTICE1 address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -801,17 +801,17 @@
     <message>
         <location line="-427"/>
         <location line="+890"/>
-        <source>LeisureCoin Core</source>
+        <source>PRACTICE1 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-707"/>
-        <source>Send coins to a LeisureCoin address</source>
+        <source>Send coins to a PRACTICE1 address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and LeisureCoin: URIs)</source>
+        <source>Request payments (generates QR codes and PRACTICE1: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -831,27 +831,27 @@
     </message>
     <message>
         <location line="+31"/>
-        <source>&amp;About LeisureCoin Core</source>
+        <source>&amp;About PRACTICE1 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about LeisureCoin Core</source>
+        <source>Show information about PRACTICE1 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for LeisureCoin</source>
+        <source>Modify configuration options for PRACTICE1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your LeisureCoin addresses to prove you own them</source>
+        <source>Sign messages with your PRACTICE1 addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified LeisureCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified PRACTICE1 addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -891,7 +891,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Open a LeisureCoin: URI or payment request</source>
+        <source>Open a PRACTICE1: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -906,17 +906,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the LeisureCoin Core help message to get a list with possible LeisureCoin command-line options</source>
+        <source>Show the PRACTICE1 Core help message to get a list with possible PRACTICE1 command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+214"/>
-        <source>LeisureCoin Core client</source>
+        <source>PRACTICE1 Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+212"/>
-        <source>%n active connection(s) to LeisureCoin network</source>
+        <source>%n active connection(s) to PRACTICE1 network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1112,7 +1112,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+476"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (LeisureCoin.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (PRACTICE1.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1481,7 +1481,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid LeisureCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid PRACTICE1 address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1537,7 +1537,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>LeisureCoin Core</source>
+        <source>PRACTICE1 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1548,7 +1548,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About LeisureCoin Core</source>
+        <source>About PRACTICE1 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1606,17 +1606,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to LeisureCoin Core.</source>
+        <source>Welcome to PRACTICE1 Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where LeisureCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where PRACTICE1 Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>LeisureCoin Core will download and store a copy of the LeisureCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>PRACTICE1 Core will download and store a copy of the PRACTICE1 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1631,7 +1631,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>LeisureCoin Core</source>
+        <source>PRACTICE1 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1807,8 +1807,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other LeisureCoin addresses after it matures.
-To Add: enter percentage to give and LeisureCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PRACTICE1 addresses after it matures.
+To Add: enter percentage to give and PRACTICE1 address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -2063,7 +2063,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send LeisureCoin to</source>
+        <source>Add destinations to send PRACTICE1 to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2238,7 +2238,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the LeisureCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the PRACTICE1 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2263,12 +2263,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-176"/>
-        <source>Automatically start LeisureCoin after logging in to the system.</source>
+        <source>Automatically start PRACTICE1 after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start LeisureCoin on system login</source>
+        <source>&amp;Start PRACTICE1 on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2303,7 +2303,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting LeisureCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRACTICE1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2313,7 +2313,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+114"/>
-        <source>Connect to the LeisureCoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the PRACTICE1 network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2473,7 +2473,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+43"/>
-        <source>LeisureCoin Balances</source>
+        <source>PRACTICE1 Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2512,7 +2512,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-153"/>
         <location line="+1393"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LeisureCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PRACTICE1 network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2574,7 +2574,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+36"/>
-        <source>LeisureCoin:</source>
+        <source>PRACTICE1:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2589,7 +2589,7 @@ p, li { white-space: pre-wrap; }
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 LeisureCoin</source>
+        <source>0.000 000 00 PRACTICE1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2645,12 +2645,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start LeisureCoin: click-to-pay handler</source>
+        <source>Cannot start PRACTICE1: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-        <source>URI cannot be parsed! This can be caused by an invalid LeisureCoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid PRACTICE1 address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2758,7 +2758,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a LeisureCoin address (e.g. %1)</source>
+        <source>Enter a PRACTICE1 address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2953,7 +2953,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the LeisureCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the PRACTICE1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3180,7 +3180,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the LeisureCoin RPC console.</source>
+        <source>Welcome to the PRACTICE1 RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3296,12 +3296,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the LeisureCoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PRACTICE1 network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the LeisureCoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PRACTICE1 network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3584,7 +3584,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+7"/>
-        <source>0 LeisureCoin</source>
+        <source>0 PRACTICE1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3654,18 +3654,18 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uLeisureCoins and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uLeisureCoins in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uLeisureCoins. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uPRACTICE1 and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPRACTICE1 in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uPRACTICE1. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uLeisureCoins and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uLeisureCoins in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uLeisureCoins. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uPRACTICE1 and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPRACTICE1 in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uPRACTICE1. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for LeisureCoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PRACTICE1 transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3786,7 +3786,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+622"/>
-        <source>Warning: Invalid LeisureCoin address</source>
+        <source>Warning: Invalid PRACTICE1 address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3915,7 +3915,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+18"/>
-        <source>The LeisureCoin address to send the payment to</source>
+        <source>The PRACTICE1 address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3969,7 +3969,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the LeisureCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the LeisureCoin network.</source>
+        <source>A message that was attached to the PRACTICE1: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PRACTICE1 network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4004,7 +4004,7 @@ p, li { white-space: pre-wrap; }
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>LeisureCoin Core is shutting down...</source>
+        <source>PRACTICE1 Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4032,7 +4032,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+18"/>
-        <source>The LeisureCoin address to sign the message with</source>
+        <source>The PRACTICE1 address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4074,17 +4074,17 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The LeisureCoin address the message was signed with</source>
+        <source>The PRACTICE1 address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4199,7 +4199,7 @@ p, li { white-space: pre-wrap; }
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>LeisureCoin Core</source>
+        <source>PRACTICE1 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4224,7 +4224,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+1"/>
-        <source>The LeisureCoin Core developers</source>
+        <source>The PRACTICE1 Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4882,7 +4882,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 LeisureCoin.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 PRACTICE1.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4935,9 +4935,9 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>LeisureCoin-core</name>
+    <name>PRACTICE1-core</name>
     <message>
-        <location filename="../LeisureCoinstrings.cpp" line="+15"/>
+        <location filename="../PRACTICE1trings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -4968,7 +4968,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot obtain a lock on data directory %s. LeisureCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. PRACTICE1 Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5033,12 +5033,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in LeisureCoin/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in PRACTICE1/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in LeisureCoin/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in PRACTICE1/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5153,27 +5153,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+4"/>
-        <source>To use LeisureCoind, or the -server option to LeisureCoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use PRACTICE1d, or the -server option to PRACTICE1-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=LeisureCoinrpc
+rpcuser=PRACTICE1rpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;LeisureCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;PRACTICE1 Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. LeisureCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. PRACTICE1 Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 LeisureCoin.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PRACTICE1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5193,7 +5193,7 @@ for example: alertnotify=echo %%s | mail -s &quot;LeisureCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong LeisureCoin Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PRACTICE1 Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5248,7 +5248,7 @@ for example: alertnotify=echo %%s | mail -s &quot;LeisureCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 9333 for mainnet)</source>
+        <source>(must be 8888 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5378,7 +5378,7 @@ for example: alertnotify=echo %%s | mail -s &quot;LeisureCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2017-%i The LeisureCoin Core Developers</source>
+        <source>Copyright (C) 2017-%i The PRACTICE1 Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5488,7 +5488,7 @@ for example: alertnotify=echo %%s | mail -s &quot;LeisureCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of LeisureCoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of PRACTICE1 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5553,7 +5553,7 @@ for example: alertnotify=echo %%s | mail -s &quot;LeisureCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in LeisureCoin/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in PRACTICE1/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5628,7 +5628,7 @@ for example: alertnotify=echo %%s | mail -s &quot;LeisureCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. LeisureCoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. PRACTICE1 Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5745,7 +5745,7 @@ for example: alertnotify=echo %%s | mail -s &quot;LeisureCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+38"/>
-        <source>Disable all LeisureCoin specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all PRACTICE1 specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6420,7 +6420,7 @@ for example: alertnotify=echo %%s | mail -s &quot;LeisureCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart LeisureCoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart PRACTICE1 Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

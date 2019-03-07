@@ -164,8 +164,8 @@
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LeisureCoin&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES LeisureCoinS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRACTICE1&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES PRACTICE1S&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>LeisureCoin</source>
-        <translation>LeisureCoin</translation>
+        <source>PRACTICE1</source>
+        <translation>PRACTICE1</translation>
     </message>
     <message>
-        <source>&amp;About LeisureCoin</source>
-        <translation>&amp;Sobre LeisureCoin</translation>
+        <source>&amp;About PRACTICE1</source>
+        <translation>&amp;Sobre PRACTICE1</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>About LeisureCoin Core</source>
-        <translation>Sobre LeisureCoin Core</translation>
+        <source>About PRACTICE1 Core</source>
+        <translation>Sobre PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to LeisureCoin Core.</source>
-        <translation>Benvingut a LeisureCoin Core.</translation>
+        <source>Welcome to PRACTICE1 Core.</source>
+        <translation>Benvingut a PRACTICE1 Core.</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1101,8 +1101,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1253,7 +1253,7 @@
     </message>
     </context>
 <context>
-    <name>LeisureCoin-core</name>
+    <name>PRACTICE1-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>
