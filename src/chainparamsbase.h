@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between LeisureCoin-cli and LeisureCoind)
- * of a given instance of the LeisureCoin system.
+ * CBaseChainParams defines the base parameters (shared between PRACTICE1-cli and PRACTICE1d)
+ * of a given instance of the PRACTICE1 system.
  */
 class CBaseChainParams
 {
