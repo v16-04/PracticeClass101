@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/LeisureCoin-config.h"
+#include "config/PRACTICE1-config.h"
 #endif
 
 #include "util.h"
@@ -105,7 +105,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-// LeisureCoin only features
+// PRACTICE1 only features
 // Masternode
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
@@ -227,8 +227,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "LeisureCoin" is a composite category enabling all LeisureCoin-related debug output
-            if (ptrCategory->count(string("LeisureCoin"))) {
+            // "PRACTICE1" is a composite category enabling all PRACTICE1-related debug output
+            if (ptrCategory->count(string("PRACTICE1"))) {
                 ptrCategory->insert(string("swifttx"));
                 ptrCategory->insert(string("masternode"));
                 ptrCategory->insert(string("mnpayments"));
@@ -391,7 +391,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "LeisureCoin";
+    const char* pszModule = "PRACTICE1";
 #endif
     if (pex)
         return strprintf(
@@ -412,13 +412,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\LeisureCoin
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\LeisureCoin
-// Mac: ~/Library/Application Support/LeisureCoin
-// Unix: ~/.LeisureCoin
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\PRACTICE1
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\PRACTICE1
+// Mac: ~/Library/Application Support/PRACTICE1
+// Unix: ~/.PRACTICE1
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "LeisureCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "PRACTICE1";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -430,10 +430,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "LeisureCoin";
+    return pathRet / "PRACTICE1";
 #else
     // Unix
-    return pathRet / ".LeisureCoin";
+    return pathRet / ".PRACTICE1";
 #endif
 #endif
 }
@@ -480,7 +480,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "LeisureCoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "PRACTICE1.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -499,7 +499,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty LeisureCoin.conf if it does not exist
+        // Create empty PRACTICE1.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -510,7 +510,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override LeisureCoin.conf
+        // Don't overwrite existing settings so command line settings override PRACTICE1.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);
@@ -525,7 +525,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "LeisureCoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "PRACTICE1d.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
