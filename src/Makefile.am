@@ -72,15 +72,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += LeisureCoind
+  bin_PROGRAMS += PRACTICE1d
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += LeisureCoin-cli LeisureCoin-tx
+  bin_PROGRAMS += PRACTICE1-cli PRACTICE1-tx
 endif
 
 .PHONY: FORCE
-# LeisureCoin core #
+# PRACTICE1 core #
 BITCOIN_CORE_H = \
   bignum.h \
   activemasternode.h \
@@ -183,7 +183,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between LeisureCoind and LeisureCoin-qt
+# server: shared between PRACTICE1d and PRACTICE1-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -228,7 +228,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between LeisureCoind and LeisureCoin-qt, but only linked
+# wallet: shared between PRACTICE1d and PRACTICE1-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -290,7 +290,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between LeisureCoind, and LeisureCoin-qt and non-server tools
+# common: shared between PRACTICE1d, and PRACTICE1-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -348,7 +348,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between LeisureCoin-cli and LeisureCoin-qt
+# cli: shared between PRACTICE1-cli and PRACTICE1-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -358,7 +358,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-LeisureCoind_LDADD = \
+PRACTICE1d_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -369,26 +369,26 @@ LeisureCoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-LeisureCoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+PRACTICE1d_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-LeisureCoind_LDADD += libbitcoin_wallet.a
+PRACTICE1d_LDADD += libbitcoin_wallet.a
 endif
-LeisureCoind_SOURCES = LeisureCoind.cpp
+PRACTICE1d_SOURCES = PRACTICE1d.cpp
 #
 
 if TARGET_WINDOWS
-LeisureCoind_SOURCES += LeisureCoind-res.rc
+PRACTICE1d_SOURCES += PRACTICE1d-res.rc
 endif
 
-LeisureCoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-LeisureCoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-LeisureCoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+PRACTICE1d_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+PRACTICE1d_CPPFLAGS = $(BITCOIN_INCLUDES)
+PRACTICE1d_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# LeisureCoin-cli binary #
-LeisureCoin_cli_LDADD = \
+# PRACTICE1-cli binary #
+PRACTICE1_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
@@ -397,14 +397,14 @@ LeisureCoin_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-LeisureCoin_cli_SOURCES = \
-  LeisureCoin-cli.cpp
+PRACTICE1_cli_SOURCES = \
+  PRACTICE1-cli.cpp
 
-LeisureCoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+PRACTICE1_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# LeisureCoin-tx binary #
-LeisureCoin_tx_LDADD = \
+# PRACTICE1-tx binary #
+PRACTICE1_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -413,15 +413,15 @@ LeisureCoin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-LeisureCoin_tx_SOURCES = LeisureCoin-tx.cpp
-LeisureCoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+PRACTICE1_tx_SOURCES = PRACTICE1-tx.cpp
+PRACTICE1_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-LeisureCoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+PRACTICE1_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-LeisureCoin_cli_SOURCES += LeisureCoin-cli-res.rc
+PRACTICE1_cli_SOURCES += PRACTICE1-cli-res.rc
 endif
-LeisureCoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+PRACTICE1_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h
