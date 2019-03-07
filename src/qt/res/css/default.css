@@ -87,7 +87,7 @@ QLabel#logo {
 	max-width:187px;
 	max-height:46px;
 	margin:0px 15px;
-	border-image: url(':/images/LeisureCoin_logo_horizontal') 0 0 0 0 stretch stretch;
+	border-image: url(':/images/PRACTICE1_logo_horizontal') 0 0 0 0 stretch stretch;
 	border-top:0px solid #000;
 }
 
@@ -96,7 +96,7 @@ QLabel#logoIcon {
 	min-height:314px;
 	max-width:299px;
 	max-height:314px;
-	border-image: url(':/images/LeisureCoin_logo_icon_fx') 0 0 0 0 stretch stretch;
+	border-image: url(':/images/PRACTICE1_logo_icon_fx') 0 0 0 0 stretch stretch;
 	border-top:0px solid #000;
 }
 
@@ -924,7 +924,7 @@ QWidget .QFrame#frameBalances .QLabel#labelSpendable { /* Spendable Header */
 
 QWidget .QFrame#frameBalances .QLabel#labelImmatureText, /* Immature Balance Label */
 QWidget .QFrame#frameBalances .QLabel#labelPendingText, /* Pending Balance Label */
-QWidget .QFrame#frameBalances .QLabel#labelBalances { /* EPIC Balances Header Label */
+QWidget .QFrame#frameBalances .QLabel#labelBalances { /* PRTC Balances Header Label */
 	qproperty-alignment: 'AlignVCenter | AlignRight';
 	color: #646464;
 	font-size: 16px;
@@ -947,11 +947,11 @@ QWidget .QFrame#frameBalances .QLabel#labelTotalText {
 } /* Total Balance Label */
 
 
-QWidget .QFrame#frameBalances .QLabel#labelBalances { /* EPIC Balances Header Label */
+QWidget .QFrame#frameBalances .QLabel#labelBalances { /* PRTC Balances Header Label */
 	font-weight: bold;
 }
 
-QWidget .QFrame#frameBalances #lineBalances { /* EPIC Balances Line separator */
+QWidget .QFrame#frameBalances #lineBalances { /* PRTC Balances Line separator */
 	background-color:#7c899e;
 }
 
