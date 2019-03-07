@@ -125,7 +125,7 @@ public slots:
     /** Show progress dialog e.g. for rescan */
     void showProgress(const QString& title, int nProgress);
 
-    /** Update selected LeisureCoin amount from transactionview */
+    /** Update selected PRACTICE1 amount from transactionview */
     void trxAmount(QString amount);
 
 signals:
