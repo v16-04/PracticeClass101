@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both LeisureCoind and LeisureCoin-qt, to make it harder for attackers to
+ * for both PRACTICE1d and PRACTICE1-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("LeisureCoin Core");
+const std::string CLIENT_NAME("PRACTICE1 Core");
 
 /**
  * Client version number

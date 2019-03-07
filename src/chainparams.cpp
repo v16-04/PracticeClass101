@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The LeisureCoin developers
+// Copyright (c) 2018 The PRACTICE1 developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -102,23 +102,23 @@ public:
         pchMessageStart[2] = 0x12;
         pchMessageStart[3] = 0xae;
         vAlertPubKey = ParseHex("04dd48139aa8fdb723a4f2c8e8d9bc536d3a207f1ff271c5136a9b11ff2a3fca943671f8f89c427aefe496e044165050d954a5294fd245aeec2b66de06ff3dd696");
-        nDefaultPort = 9333;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // LeisureCoin starting difficulty is 1 / 2^12
+        nDefaultPort = 8888;
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // PRACTICE1 starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 1050000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // LeisureCoin: 1 day
-        nTargetSpacing = 2 * 60;  // LeisureCoin: 2 minutes
+        nTargetTimespan = 1 * 60; // PRACTICE1: 1 day
+        nTargetSpacing = 2 * 60;  // PRACTICE1: 2 minutes
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 650;
-        nModifierUpdateBlock = 1; // we use the version 2 for PARK
+        nModifierUpdateBlock = 1; // we use the version 2 for PRTC
 
         const char* pszTimestamp = "POLITICO 070618 China slams U.S. over \u2018largest trade war in economic history";
         CMutableTransaction txNew;
@@ -146,17 +146,17 @@ public:
         vSeeds.push_back(CDNSSeedData("144.202.7.213", "144.202.7.213"));
 
 
-        // LeisureCoin addresses start with 'L'
+        // PRACTICE1 addresses start with 'L'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 48);
-        // LeisureCoin script addresses start with '3'
+        // PRACTICE1 script addresses start with '3'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 8);
-        // LeisureCoin private keys start with 'K'
+        // PRACTICE1 private keys start with 'K'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 46);
-        // LeisureCoin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // PRACTICE1 BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // LeisureCoin BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // PRACTICE1 BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        // LeisureCoin BIP44 coin type is '222' (0x800000de)
+        // PRACTICE1 BIP44 coin type is '222' (0x800000de)
         // BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0xde).convert_to_container<std::vector<unsigned char> >();
 
@@ -201,13 +201,13 @@ public:
         pchMessageStart[2] = 0xe5;
         pchMessageStart[3] = 0xa8;
         vAlertPubKey = ParseHex("04bf35ae72768f3558b467a9f3263472fd29be2ef22308055d008a4f4b823ea1c5302865ef448d88d4649388d3b82d0a0704610d82eddd5f887aa449a69c731dab");
-        nDefaultPort = 19333;
+        nDefaultPort = 18888;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // LeisureCoin: 1 day
-        nTargetSpacing = 2 * 60;  // LeisureCoin: 1 minute
+        nTargetTimespan = 1 * 60; // PRACTICE1: 1 day
+        nTargetSpacing = 2 * 60;  // PRACTICE1: 1 minute
         nLastPOWBlock = 300;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -224,17 +224,17 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        // Testnet LeisureCoin addresses start with 'g'
+        // Testnet PRACTICE1 addresses start with 'g'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 98);
-        // Testnet LeisureCoin script addresses start with '5' or '6'
+        // Testnet PRACTICE1 script addresses start with '5' or '6'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);
         // Testnet private keys start with 'k'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 108);
-        // Testnet LeisureCoin BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet PRACTICE1 BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet LeisureCoin BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet PRACTICE1 BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet LeisureCoin BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet PRACTICE1 BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -280,8 +280,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // LeisureCoin: 1 day
-        nTargetSpacing = 2 * 60;        // LeisureCoin: 2 minutes
+        nTargetTimespan = 24 * 60 * 60; // PRACTICE1: 1 day
+        nTargetSpacing = 2 * 60;        // PRACTICE1: 2 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1530919232;
         genesis.nBits = 0x207fffff;
