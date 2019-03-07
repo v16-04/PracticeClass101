@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * LeisureCoin RPC command dispatcher.
+ * PRACTICE1 RPC command dispatcher.
  */
 class CRPCTable
 {

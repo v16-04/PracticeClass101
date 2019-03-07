@@ -1,33 +1,33 @@
-bin_PROGRAMS += qt/LeisureCoin-qt
+bin_PROGRAMS += qt/PRACTICE1-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# LeisureCoin qt core #
+# PRACTICE1 qt core #
 QT_TS = \
-  qt/locale/LeisureCoin_bg.ts \
-  qt/locale/LeisureCoin_ca.ts \
-  qt/locale/LeisureCoin_cs.ts \
-  qt/locale/LeisureCoin_da.ts \
-  qt/locale/LeisureCoin_de.ts \
-  qt/locale/LeisureCoin_en.ts \
-  qt/locale/LeisureCoin_en_US.ts \
-  qt/locale/LeisureCoin_es.ts \
-  qt/locale/LeisureCoin_fi.ts \
-  qt/locale/LeisureCoin_fr_FR.ts \
-  qt/locale/LeisureCoin_it.ts \
-  qt/locale/LeisureCoin_ja.ts \
-  qt/locale/LeisureCoin_ko_KR.ts \
-  qt/locale/LeisureCoin_nl.ts \
-  qt/locale/LeisureCoin_pl.ts \
-  qt/locale/LeisureCoin_pt.ts \
-  qt/locale/LeisureCoin_pt_BR.ts \
-  qt/locale/LeisureCoin_ro_RO.ts \
-  qt/locale/LeisureCoin_ru.ts \
-  qt/locale/LeisureCoin_sk.ts \
-  qt/locale/LeisureCoin_sv.ts \
-  qt/locale/LeisureCoin_tr.ts \
-  qt/locale/LeisureCoin_uk.ts \
-  qt/locale/LeisureCoin_zh_CN.ts \
-  qt/locale/LeisureCoin_zh_TW.ts
+  qt/locale/PRACTICE1_bg.ts \
+  qt/locale/PRACTICE1_ca.ts \
+  qt/locale/PRACTICE1_cs.ts \
+  qt/locale/PRACTICE1_da.ts \
+  qt/locale/PRACTICE1_de.ts \
+  qt/locale/PRACTICE1_en.ts \
+  qt/locale/PRACTICE1_en_US.ts \
+  qt/locale/PRACTICE1_es.ts \
+  qt/locale/PRACTICE1_fi.ts \
+  qt/locale/PRACTICE1_fr_FR.ts \
+  qt/locale/PRACTICE1_it.ts \
+  qt/locale/PRACTICE1_ja.ts \
+  qt/locale/PRACTICE1_ko_KR.ts \
+  qt/locale/PRACTICE1_nl.ts \
+  qt/locale/PRACTICE1_pl.ts \
+  qt/locale/PRACTICE1_pt.ts \
+  qt/locale/PRACTICE1_pt_BR.ts \
+  qt/locale/PRACTICE1_ro_RO.ts \
+  qt/locale/PRACTICE1_ru.ts \
+  qt/locale/PRACTICE1_sk.ts \
+  qt/locale/PRACTICE1_sv.ts \
+  qt/locale/PRACTICE1_tr.ts \
+  qt/locale/PRACTICE1_uk.ts \
+  qt/locale/PRACTICE1_zh_CN.ts \
+  qt/locale/PRACTICE1_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -107,16 +107,16 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/LeisureCoin.moc \
+  qt/PRACTICE1.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_LeisureCoin.cpp
-QT_QRC = qt/LeisureCoin.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_LeisureCoin_locale.cpp
-QT_QRC_LOCALE = qt/LeisureCoin_locale.qrc
+QT_QRC_CPP = qt/qrc_PRACTICE1.cpp
+QT_QRC = qt/PRACTICE1.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_PRACTICE1_locale.cpp
+QT_QRC_LOCALE = qt/PRACTICE1_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -234,12 +234,12 @@ RES_ICONS = \
   qt/res/icons/tx_input.png \
   qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
-  qt/res/icons/unit_LeisureCoin.png \
-  qt/res/icons/unit_mLeisureCoin.png \
-  qt/res/icons/unit_uLeisureCoin.png \
-  qt/res/icons/unit_tLeisureCoin.png \
-  qt/res/icons/unit_tmLeisureCoin.png \
-  qt/res/icons/unit_tuLeisureCoin.png
+  qt/res/icons/unit_PRACTICE1.png \
+  qt/res/icons/unit_mPRACTICE1.png \
+  qt/res/icons/unit_uPRACTICE1.png \
+  qt/res/icons/unit_tPRACTICE1.png \
+  qt/res/icons/unit_tmPRACTICE1.png \
+  qt/res/icons/unit_tuPRACTICE1.png
 
 BITCOIN_QT_CPP = \
   qt/bitcoinaddressvalidator.cpp \
@@ -303,7 +303,7 @@ BITCOIN_QT_CPP += \
 endif
 
 RES_IMAGES = \
-  qt/res/images/LeisureCoin_logo_horizontal.png \
+  qt/res/images/PRACTICE1_logo_horizontal.png \
   qt/res/images/about.png \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
@@ -322,7 +322,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/LeisureCoin-qt-res.rc
+BITCOIN_RC = qt/res/PRACTICE1-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -342,69 +342,69 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_LeisureCoin_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_PRACTICE1_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# LeisureCoin-qt binary #
-qt_LeisureCoin_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# PRACTICE1-qt binary #
+qt_PRACTICE1_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_LeisureCoin_qt_SOURCES = qt/LeisureCoin.cpp
+qt_PRACTICE1_qt_SOURCES = qt/PRACTICE1.cpp
 if TARGET_DARWIN
-  qt_LeisureCoin_qt_SOURCES += $(BITCOIN_MM)
+  qt_PRACTICE1_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_LeisureCoin_qt_SOURCES += $(BITCOIN_RC)
+  qt_PRACTICE1_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_LeisureCoin_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_PRACTICE1_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_LeisureCoin_qt_LDADD += $(LIBBITCOIN_WALLET)
+qt_PRACTICE1_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_LeisureCoin_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_PRACTICE1_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_LeisureCoin_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_PRACTICE1_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_LeisureCoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_LeisureCoin_qt_LIBTOOLFLAGS = --tag CXX
+qt_PRACTICE1_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_PRACTICE1_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 .SECONDARY: $(QT_QM)
 
-qt/LeisureCoinstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
+qt/PRACTICE1trings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/LeisureCoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/PRACTICE1trings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/LeisureCoin_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/PRACTICE1_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name LeisureCoin_locale $(@D)/$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name PRACTICE1_locale $(@D)/$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name LeisureCoin $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name PRACTICE1 $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
 
 CLEANFILES += $(CLEAN_QT)
 
-LeisureCoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_LeisureCoin_qt_OBJECTS) qt/LeisureCoin-qt$(EXEEXT) $(LIBBITCOINQT)
+PRACTICE1_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_PRACTICE1_qt_OBJECTS) qt/PRACTICE1-qt$(EXEEXT) $(LIBBITCOINQT)
 
-LeisureCoin_qt : qt/LeisureCoin-qt$(EXEEXT)
+PRACTICE1_qt : qt/PRACTICE1-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

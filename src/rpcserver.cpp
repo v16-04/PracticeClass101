@@ -242,10 +242,10 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop LeisureCoin server.");
+            "\nStop PRACTICE1 server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "LeisureCoin server stopping";
+    return "PRACTICE1 server stopping";
 }
 
 
@@ -327,33 +327,33 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* LeisureCoin features */
-        {"LeisureCoin", "masternode", &masternode, true, true, false},
-        {"LeisureCoin", "listmasternodes", &listmasternodes, true, true, false},
-        {"LeisureCoin", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"LeisureCoin", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"LeisureCoin", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"LeisureCoin", "masternodedebug", &masternodedebug, true, true, false},
-        {"LeisureCoin", "startmasternode", &startmasternode, true, true, false},
-        {"LeisureCoin", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"LeisureCoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"LeisureCoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"LeisureCoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"LeisureCoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"LeisureCoin", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"LeisureCoin", "mnbudget", &mnbudget, true, true, false},
-        {"LeisureCoin", "preparebudget", &preparebudget, true, true, false},
-        {"LeisureCoin", "submitbudget", &submitbudget, true, true, false},
-        {"LeisureCoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"LeisureCoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"LeisureCoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"LeisureCoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"LeisureCoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"LeisureCoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"LeisureCoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"LeisureCoin", "checkbudgets", &checkbudgets, true, true, false},
-        {"LeisureCoin", "mnsync", &mnsync, true, true, false},
-        {"LeisureCoin", "spork", &spork, true, true, false},
+        /* PRACTICE1 features */
+        {"PRACTICE1", "masternode", &masternode, true, true, false},
+        {"PRACTICE1", "listmasternodes", &listmasternodes, true, true, false},
+        {"PRACTICE1", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"PRACTICE1", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"PRACTICE1", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"PRACTICE1", "masternodedebug", &masternodedebug, true, true, false},
+        {"PRACTICE1", "startmasternode", &startmasternode, true, true, false},
+        {"PRACTICE1", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"PRACTICE1", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"PRACTICE1", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"PRACTICE1", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"PRACTICE1", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"PRACTICE1", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"PRACTICE1", "mnbudget", &mnbudget, true, true, false},
+        {"PRACTICE1", "preparebudget", &preparebudget, true, true, false},
+        {"PRACTICE1", "submitbudget", &submitbudget, true, true, false},
+        {"PRACTICE1", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"PRACTICE1", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"PRACTICE1", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"PRACTICE1", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"PRACTICE1", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"PRACTICE1", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"PRACTICE1", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"PRACTICE1", "checkbudgets", &checkbudgets, true, true, false},
+        {"PRACTICE1", "mnsync", &mnsync, true, true, false},
+        {"PRACTICE1", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
@@ -1070,14 +1070,14 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> LeisureCoin-cli " + methodname + " " + args + "\n";
+    return "> PRACTICE1-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)
 {
     return "> curl --user myusername --data-binary '{\"jsonrpc\": \"1.0\", \"id\":\"curltest\", "
            "\"method\": \"" +
-           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:9332/\n";
+           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:8887/\n";
 }
 
 const CRPCTable tableRPC;
