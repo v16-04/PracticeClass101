@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши LeisureCoin-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your PRACTICE1 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши PRACTICE1-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши LeisureCoin-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your PRACTICE1 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши PRACTICE1-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>LeisureCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LeisureCoins from being stolen by malware infecting your computer.</source>
-        <translation>LeisureCoin сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши LeisureCoin от кражи с использованием вредоносного ПО.</translation>
+        <source>PRACTICE1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRACTICE1 from being stolen by malware infecting your computer.</source>
+        <translation>PRACTICE1 сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши PRACTICE1 от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LeisureCoin&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ LeisureCoin&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRACTICE1&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ PRACTICE1&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a LeisureCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите LeisureCoin адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a PRACTICE1 Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите PRACTICE1 адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>Адрес LeisureCoin для подписи сообщения с помощью</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>Адрес PRACTICE1 для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес LeisureCoin</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес PRACTICE1</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>Адрес LeisureCoin, которым подписано сообщение</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>Адрес PRACTICE1, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным LeisureCoin адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным PRACTICE1 адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Send coins to a LeisureCoin address</source>
-        <translation>Отправить монеты на LeisureCoin адрес</translation>
+        <source>Send coins to a PRACTICE1 address</source>
+        <translation>Отправить монеты на PRACTICE1 адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and LeisureCoin: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и LeisureCoin: URI)</translation>
+        <source>Request payments (generates QR codes and PRACTICE1: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и PRACTICE1: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About LeisureCoin Core</source>
-        <translation>&amp;О LeisureCoin Core</translation>
+        <source>&amp;About PRACTICE1 Core</source>
+        <translation>&amp;О PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Show information about LeisureCoin Core</source>
-        <translation>Показать информацию о LeisureCoin Core</translation>
+        <source>Show information about PRACTICE1 Core</source>
+        <translation>Показать информацию о PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LeisureCoin</source>
-        <translation>Изменение параметров конфигурации LeisureCoin</translation>
+        <source>Modify configuration options for PRACTICE1</source>
+        <translation>Изменение параметров конфигурации PRACTICE1</translation>
     </message>
     <message>
-        <source>Sign messages with your LeisureCoin addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими LeisureCoin адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your PRACTICE1 addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими PRACTICE1 адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LeisureCoin addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным LeisureCoin адресом </translation>
+        <source>Verify messages to ensure they were signed with specified PRACTICE1 addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным PRACTICE1 адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -658,8 +658,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a LeisureCoin: URI or payment request</source>
-        <translation>Открыть LeisureCoin: URI или запрос платежа</translation>
+        <source>Open a PRACTICE1: URI or payment request</source>
+        <translation>Открыть PRACTICE1: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the LeisureCoin Core help message to get a list with possible LeisureCoin command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды LeisureCoin</translation>
+        <source>Show the PRACTICE1 Core help message to get a list with possible PRACTICE1 command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды PRACTICE1</translation>
     </message>
     <message>
-        <source>LeisureCoin Core client</source>
-        <translation>Клиент LeisureCoin Core</translation>
+        <source>PRACTICE1 Core client</source>
+        <translation>Клиент PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -801,8 +801,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (LeisureCoin.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (LeisureCoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (PRACTICE1.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (PRACTICE1.conf).</translation>
     </message>
 </context>
 <context>
@@ -1090,8 +1090,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LeisureCoin address.</source>
-        <translation>Введенный адрес "%1" не является LeisureCoin адресом.</translation>
+        <source>The entered address "%1" is not a valid PRACTICE1 address.</source>
+        <translation>Введенный адрес "%1" не является PRACTICE1 адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1136,16 +1136,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About LeisureCoin Core</source>
-        <translation>О LeisureCoin Core</translation>
+        <source>About PRACTICE1 Core</source>
+        <translation>О PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1191,16 +1191,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to LeisureCoin Core.</source>
-        <translation>Добро пожаловать в LeisureCoin Core.</translation>
+        <source>Welcome to PRACTICE1 Core.</source>
+        <translation>Добро пожаловать в PRACTICE1 Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where LeisureCoin Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные LeisureCoin Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where PRACTICE1 Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные PRACTICE1 Core.</translation>
     </message>
     <message>
-        <source>LeisureCoin Core will download and store a copy of the LeisureCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>LeisureCoin Core загрузит и сохранит копию цепочки блоков LeisureCoin. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>PRACTICE1 Core will download and store a copy of the PRACTICE1 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PRACTICE1 Core загрузит и сохранит копию цепочки блоков PRACTICE1. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1211,8 +1211,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1353,12 +1353,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other LeisureCoin addresses after it matures.
-To Add: enter percentage to give and LeisureCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PRACTICE1 addresses after it matures.
+To Add: enter percentage to give and PRACTICE1 address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие LeisureCoin адреса.
-Для добавления: введите передаваемый процент и LeisureCoin адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие PRACTICE1 адреса.
+Для добавления: введите передаваемый процент и PRACTICE1 адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1531,8 +1531,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the LeisureCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт LeisureCoin через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the PRACTICE1 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт PRACTICE1 через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1551,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start LeisureCoin after logging in to the system.</source>
-        <translation>Автоматически запускать LeisureCoin после входа в систему.</translation>
+        <source>Automatically start PRACTICE1 after logging in to the system.</source>
+        <translation>Автоматически запускать PRACTICE1 после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start LeisureCoin on system login</source>
-        <translation>&amp;Запускать LeisureCoin при входе в систему</translation>
+        <source>&amp;Start PRACTICE1 on system login</source>
+        <translation>&amp;Запускать PRACTICE1 при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1583,16 +1583,16 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting LeisureCoin.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска LeisureCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRACTICE1.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска PRACTICE1.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the LeisureCoin network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети LeisureCoin через SOCKS5 прокси.</translation>
+        <source>Connect to the PRACTICE1 network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети PRACTICE1 через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1738,8 +1738,8 @@ Please check the address and try again.</source>
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LeisureCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью LeisureCoin после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PRACTICE1 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью PRACTICE1 после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1801,12 +1801,12 @@ Please check the address and try again.</source>
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start LeisureCoin: click-to-pay handler</source>
-        <translation>Не удалось запустить LeisureCoin: обработчик click-to-pay </translation>
+        <source>Cannot start PRACTICE1: click-to-pay handler</source>
+        <translation>Не удалось запустить PRACTICE1: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid LeisureCoin address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный LeisureCoin адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid PRACTICE1 address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный PRACTICE1 адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1891,8 +1891,8 @@ Please check the address and try again.</source>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a LeisureCoin address (e.g. %1)</source>
-        <translation>Введите адрес LeisureCoin (например %1)</translation>
+        <source>Enter a PRACTICE1 address (e.g. %1)</source>
+        <translation>Введите адрес PRACTICE1 (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2025,8 +2025,8 @@ Please check the address and try again.</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the LeisureCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки LeisureCoin. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the PRACTICE1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки PRACTICE1. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2186,8 +2186,8 @@ Please check the address and try again.</source>
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the LeisureCoin RPC console.</source>
-        <translation>Добро пожаловать в окружение LeisureCoin RPC.</translation>
+        <source>Welcome to the PRACTICE1 RPC console.</source>
+        <translation>Добро пожаловать в окружение PRACTICE1 RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2406,8 +2406,8 @@ Please check the address and try again.</source>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 LeisureCoin</source>
-        <translation>0 LeisureCoin</translation>
+        <source>0 PRACTICE1</source>
+        <translation>0 PRACTICE1</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2486,8 +2486,8 @@ Please check the address and try again.</source>
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid LeisureCoin address</source>
-        <translation>Предупреждение: неправильный LeisureCoin адрес</translation>
+        <source>Warning: Invalid PRACTICE1 address</source>
+        <translation>Предупреждение: неправильный PRACTICE1 адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2540,8 +2540,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>LeisureCoin Core is shutting down...</source>
-        <translation>LeisureCoin Core выключается...</translation>
+        <source>PRACTICE1 Core is shutting down...</source>
+        <translation>PRACTICE1 Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2551,8 +2551,8 @@ Please check the address and try again.</source>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>Адрес LeisureCoin для подписи сообщения с помощью</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>Адрес PRACTICE1 для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2575,16 +2575,16 @@ Please check the address and try again.</source>
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес LeisureCoin</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес PRACTICE1</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>Адрес LeisureCoin, которым подписано сообщение</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>Адрес PRACTICE1, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным LeisureCoin адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным PRACTICE1 адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2630,8 +2630,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2650,8 +2650,8 @@ Please check the address and try again.</source>
         <translation>Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>The LeisureCoin Core developers</source>
-        <translation>Разработчики LeisureCoin Core</translation>
+        <source>The PRACTICE1 Core developers</source>
+        <translation>Разработчики PRACTICE1 Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2902,7 +2902,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>LeisureCoin-core</name>
+    <name>PRACTICE1-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>
@@ -2940,8 +2940,8 @@ Please check the address and try again.</source>
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The LeisureCoin Core Developers</source>
-        <translation>Copyright (C) 2017-%i Разработчики LeisureCoin Core</translation>
+        <source>Copyright (C) 2017-%i The PRACTICE1 Core Developers</source>
+        <translation>Copyright (C) 2017-%i Разработчики PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

@@ -62,12 +62,12 @@
         <translation>Receiving addresses</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your LeisureCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your PRACTICE1 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your PRACTICE1 addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your LeisureCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your PRACTICE1 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your PRACTICE1 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>LeisureCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LeisureCoins from being stolen by malware infecting your computer.</source>
-        <translation>LeisureCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LeisureCoins from being stolen by malware infecting your computer.</translation>
+        <source>PRACTICE1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRACTICE1 from being stolen by malware infecting your computer.</source>
+        <translation>PRACTICE1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRACTICE1 from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LeisureCoin&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LeisureCoin&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRACTICE1&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRACTICE1&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Encrypt</translation>
     </message>
     <message>
-        <source>Enter a LeisureCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Enter a LeisureCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
+        <source>Enter a PRACTICE1 Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Enter a PRACTICE1 Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Address:</translation>
     </message>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>The LeisureCoin address to sign the message with</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>The PRACTICE1 address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Sign the message to prove you own this LeisureCoin address</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Sign the message to prove you own this PRACTICE1 address</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>The LeisureCoin address the message was signed with</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>The PRACTICE1 address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified LeisureCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>Verify the message to ensure it was signed with the specified PRACTICE1 address</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Send coins to a LeisureCoin address</source>
-        <translation>Send coins to a LeisureCoin address</translation>
+        <source>Send coins to a PRACTICE1 address</source>
+        <translation>Send coins to a PRACTICE1 address</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and LeisureCoin: URIs)</source>
-        <translation>Request payments (generates QR codes and LeisureCoin: URIs)</translation>
+        <source>Request payments (generates QR codes and PRACTICE1: URIs)</source>
+        <translation>Request payments (generates QR codes and PRACTICE1: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Browse masternodes</translation>
     </message>
     <message>
-        <source>&amp;About LeisureCoin Core</source>
-        <translation>&amp;About LeisureCoin Core</translation>
+        <source>&amp;About PRACTICE1 Core</source>
+        <translation>&amp;About PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Show information about LeisureCoin Core</source>
-        <translation>Show information about LeisureCoin Core</translation>
+        <source>Show information about PRACTICE1 Core</source>
+        <translation>Show information about PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LeisureCoin</source>
-        <translation>Modify configuration options for LeisureCoin</translation>
+        <source>Modify configuration options for PRACTICE1</source>
+        <translation>Modify configuration options for PRACTICE1</translation>
     </message>
     <message>
-        <source>Sign messages with your LeisureCoin addresses to prove you own them</source>
-        <translation>Sign messages with your LeisureCoin addresses to prove you own them</translation>
+        <source>Sign messages with your PRACTICE1 addresses to prove you own them</source>
+        <translation>Sign messages with your PRACTICE1 addresses to prove you own them</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LeisureCoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified LeisureCoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified PRACTICE1 addresses</source>
+        <translation>Verify messages to ensure they were signed with specified PRACTICE1 addresses</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Open Masternode configuration file</translation>
     </message>
     <message>
-        <source>Open a LeisureCoin: URI or payment request</source>
-        <translation>Open a LeisureCoin: URI or payment request</translation>
+        <source>Open a PRACTICE1: URI or payment request</source>
+        <translation>Open a PRACTICE1: URI or payment request</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,16 +678,16 @@
         <translation>Block explorer window</translation>
     </message>
     <message>
-        <source>Show the LeisureCoin Core help message to get a list with possible LeisureCoin command-line options</source>
-        <translation>Show the LeisureCoin Core help message to get a list with possible LeisureCoin command-line options</translation>
+        <source>Show the PRACTICE1 Core help message to get a list with possible PRACTICE1 command-line options</source>
+        <translation>Show the PRACTICE1 Core help message to get a list with possible PRACTICE1 command-line options</translation>
     </message>
     <message>
-        <source>LeisureCoin Core client</source>
-        <translation>LeisureCoin Core client</translation>
+        <source>PRACTICE1 Core client</source>
+        <translation>PRACTICE1 Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to LeisureCoin network</source>
-        <translation><numerusform>%n active connection(s) to LeisureCoin network</numerusform><numerusform>%n active connection(s) to LeisureCoin network</numerusform></translation>
+        <source>%n active connection(s) to PRACTICE1 network</source>
+        <translation><numerusform>%n active connection(s) to PRACTICE1 network</numerusform><numerusform>%n active connection(s) to PRACTICE1 network</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -829,8 +829,8 @@ Address: %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (LeisureCoin.conf).</source>
-        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (LeisureCoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (PRACTICE1.conf).</source>
+        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (PRACTICE1.conf).</translation>
     </message>
 </context>
 <context>
@@ -1122,8 +1122,8 @@ Address: %4
         <translation>Edit sending address</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LeisureCoin address.</source>
-        <translation>The entered address "%1" is not a valid LeisureCoin address.</translation>
+        <source>The entered address "%1" is not a valid PRACTICE1 address.</source>
+        <translation>The entered address "%1" is not a valid PRACTICE1 address.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1168,16 +1168,16 @@ Address: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About LeisureCoin Core</source>
-        <translation>About LeisureCoin Core</translation>
+        <source>About PRACTICE1 Core</source>
+        <translation>About PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1223,16 +1223,16 @@ Address: %4
         <translation>Welcome</translation>
     </message>
     <message>
-        <source>Welcome to LeisureCoin Core.</source>
-        <translation>Welcome to LeisureCoin Core.</translation>
+        <source>Welcome to PRACTICE1 Core.</source>
+        <translation>Welcome to PRACTICE1 Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where LeisureCoin Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where LeisureCoin Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where PRACTICE1 Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where PRACTICE1 Core will store its data.</translation>
     </message>
     <message>
-        <source>LeisureCoin Core will download and store a copy of the LeisureCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>LeisureCoin Core will download and store a copy of the LeisureCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>PRACTICE1 Core will download and store a copy of the PRACTICE1 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PRACTICE1 Core will download and store a copy of the PRACTICE1 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1243,8 +1243,8 @@ Address: %4
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1385,12 +1385,12 @@ Address: %4
         <translation>Enter Address to Send to</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other LeisureCoin addresses after it matures.
-To Add: enter percentage to give and LeisureCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PRACTICE1 addresses after it matures.
+To Add: enter percentage to give and PRACTICE1 address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other LeisureCoin addresses after it matures.
-To Add: enter percentage to give and LeisureCoin address to add to the MultiSend vector.
+        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PRACTICE1 addresses after it matures.
+To Add: enter percentage to give and PRACTICE1 address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</translation>
     </message>
@@ -1563,8 +1563,8 @@ Please check the address and try again.</translation>
         <translation>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</translation>
     </message>
     <message>
-        <source>Automatically open the LeisureCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the LeisureCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the PRACTICE1 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the PRACTICE1 client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1583,12 +1583,12 @@ Please check the address and try again.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start LeisureCoin after logging in to the system.</source>
-        <translation>Automatically start LeisureCoin after logging in to the system.</translation>
+        <source>Automatically start PRACTICE1 after logging in to the system.</source>
+        <translation>Automatically start PRACTICE1 after logging in to the system.</translation>
     </message>
     <message>
-        <source>&amp;Start LeisureCoin on system login</source>
-        <translation>&amp;Start LeisureCoin on system login</translation>
+        <source>&amp;Start PRACTICE1 on system login</source>
+        <translation>&amp;Start PRACTICE1 on system login</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1615,16 +1615,16 @@ Please check the address and try again.</translation>
         <translation>&amp;Network</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting LeisureCoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting LeisureCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRACTICE1.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting PRACTICE1.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the LeisureCoin network through a SOCKS5 proxy.</source>
-        <translation>Connect to the LeisureCoin network through a SOCKS5 proxy.</translation>
+        <source>Connect to the PRACTICE1 network through a SOCKS5 proxy.</source>
+        <translation>Connect to the PRACTICE1 network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1774,8 +1774,8 @@ Please check the address and try again.</translation>
         <translation>Balances</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LeisureCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the LeisureCoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PRACTICE1 network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the PRACTICE1 network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1853,12 +1853,12 @@ Please check the address and try again.</translation>
         <translation>Invalid payment address %1</translation>
     </message>
     <message>
-        <source>Cannot start LeisureCoin: click-to-pay handler</source>
-        <translation>Cannot start LeisureCoin: click-to-pay handler</translation>
+        <source>Cannot start PRACTICE1: click-to-pay handler</source>
+        <translation>Cannot start PRACTICE1: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid LeisureCoin address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid LeisureCoin address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid PRACTICE1 address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid PRACTICE1 address or malformed URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1943,8 +1943,8 @@ Please check the address and try again.</translation>
         <translation>Amount</translation>
     </message>
     <message>
-        <source>Enter a LeisureCoin address (e.g. %1)</source>
-        <translation>Enter a LeisureCoin address (e.g. %1)</translation>
+        <source>Enter a PRACTICE1 address (e.g. %1)</source>
+        <translation>Enter a PRACTICE1 address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2077,8 +2077,8 @@ Please check the address and try again.</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the LeisureCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the LeisureCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the PRACTICE1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the PRACTICE1 debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2245,8 +2245,8 @@ Please check the address and try again.</translation>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the LeisureCoin RPC console.</source>
-        <translation>Welcome to the LeisureCoin RPC console.</translation>
+        <source>Welcome to the PRACTICE1 RPC console.</source>
+        <translation>Welcome to the PRACTICE1 RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2316,12 +2316,12 @@ Please check the address and try again.</translation>
         <translation>An optional label to associate with the new receiving address.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the LeisureCoin network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the LeisureCoin network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PRACTICE1 network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PRACTICE1 network.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the LeisureCoin network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the LeisureCoin network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PRACTICE1 network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PRACTICE1 network.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2553,8 +2553,8 @@ Please check the address and try again.</translation>
         <translation>UTXO Size:</translation>
     </message>
     <message>
-        <source>0 LeisureCoin</source>
-        <translation>0 LeisureCoin</translation>
+        <source>0 PRACTICE1</source>
+        <translation>0 PRACTICE1</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2597,16 +2597,16 @@ Please check the address and try again.</translation>
         <translation>Confirmation time:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uLeisureCoins and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLeisureCoins in fee,&lt;br /&gt;while "at least" pays 1000 uLeisureCoins. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uLeisureCoins and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLeisureCoins in fee,&lt;br /&gt;while "at least" pays 1000 uLeisureCoins. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPRACTICE1 and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPRACTICE1 in fee,&lt;br /&gt;while "at least" pays 1000 uPRACTICE1. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uPRACTICE1 and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPRACTICE1 in fee,&lt;br /&gt;while "at least" pays 1000 uPRACTICE1. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uLeisureCoins and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLeisureCoins in fee,&lt;br /&gt;while "total at least" pays 1000 uLeisureCoins. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uLeisureCoins and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLeisureCoins in fee,&lt;br /&gt;while "total at least" pays 1000 uLeisureCoins. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPRACTICE1 and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPRACTICE1 in fee,&lt;br /&gt;while "total at least" pays 1000 uPRACTICE1. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uPRACTICE1 and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPRACTICE1 in fee,&lt;br /&gt;while "total at least" pays 1000 uPRACTICE1. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for LeisureCoin transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for LeisureCoin transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PRACTICE1 transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PRACTICE1 transactions than the network can process.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2705,8 +2705,8 @@ Please check the address and try again.</translation>
         <translation>using</translation>
     </message>
     <message>
-        <source>Warning: Invalid LeisureCoin address</source>
-        <translation>Warning: Invalid LeisureCoin address</translation>
+        <source>Warning: Invalid PRACTICE1 address</source>
+        <translation>Warning: Invalid PRACTICE1 address</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2804,8 +2804,8 @@ Please check the address and try again.</translation>
         <translation>Pay &amp;To:</translation>
     </message>
     <message>
-        <source>The LeisureCoin address to send the payment to</source>
-        <translation>The LeisureCoin address to send the payment to</translation>
+        <source>The PRACTICE1 address to send the payment to</source>
+        <translation>The PRACTICE1 address to send the payment to</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2844,8 +2844,8 @@ Please check the address and try again.</translation>
         <translation>Message:</translation>
     </message>
     <message>
-        <source>A message that was attached to the LeisureCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the LeisureCoin network.</source>
-        <translation>A message that was attached to the LeisureCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the LeisureCoin network.</translation>
+        <source>A message that was attached to the PRACTICE1: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PRACTICE1 network.</source>
+        <translation>A message that was attached to the PRACTICE1: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PRACTICE1 network.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2871,8 +2871,8 @@ Please check the address and try again.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>LeisureCoin Core is shutting down...</source>
-        <translation>LeisureCoin Core is shutting down...</translation>
+        <source>PRACTICE1 Core is shutting down...</source>
+        <translation>PRACTICE1 Core is shutting down...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2894,8 +2894,8 @@ Please check the address and try again.</translation>
         <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>The LeisureCoin address to sign the message with</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>The PRACTICE1 address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2926,16 +2926,16 @@ Please check the address and try again.</translation>
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Sign the message to prove you own this LeisureCoin address</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Sign the message to prove you own this PRACTICE1 address</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>The LeisureCoin address the message was signed with</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>The PRACTICE1 address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified LeisureCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>Verify the message to ensure it was signed with the specified PRACTICE1 address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3021,8 +3021,8 @@ Please check the address and try again.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3041,8 +3041,8 @@ Please check the address and try again.</translation>
         <translation>The PIVX Core developers</translation>
     </message>
     <message>
-        <source>The LeisureCoin Core developers</source>
-        <translation>The LeisureCoin Core developers</translation>
+        <source>The PRACTICE1 Core developers</source>
+        <translation>The PRACTICE1 Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3545,8 +3545,8 @@ Please check the address and try again.</translation>
         <translation>Send Coins</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 LeisureCoin.</source>
-        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 LeisureCoin.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 PRACTICE1.</source>
+        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 PRACTICE1.</translation>
     </message>
 </context>
 <context>
@@ -3589,7 +3589,7 @@ Please check the address and try again.</translation>
     </message>
 </context>
 <context>
-    <name>LeisureCoin-core</name>
+    <name>PRACTICE1-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
@@ -3615,8 +3615,8 @@ Please check the address and try again.</translation>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. LeisureCoin Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. LeisureCoin Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. PRACTICE1 Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. PRACTICE1 Core is probably already running.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3635,8 +3635,8 @@ Please check the address and try again.</translation>
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
-        <source>Disable all LeisureCoin specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all LeisureCoin specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all PRACTICE1 specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all PRACTICE1 specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3675,12 +3675,12 @@ Please check the address and try again.</translation>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in LeisureCoin/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in LeisureCoin/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in PRACTICE1/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in PRACTICE1/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LeisureCoin/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in LeisureCoin/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in PRACTICE1/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in PRACTICE1/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3771,36 +3771,36 @@ Please check the address and try again.</translation>
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use LeisureCoind, or the -server option to LeisureCoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use PRACTICE1d, or the -server option to PRACTICE1-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=LeisureCoinrpc
+rpcuser=PRACTICE1rpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "LeisureCoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "PRACTICE1 Alert" admin@foo.com
 </source>
-        <translation>To use LeisureCoind, or the -server option to LeisureCoin-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use PRACTICE1d, or the -server option to PRACTICE1-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=LeisureCoinrpc
+rpcuser=PRACTICE1rpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "LeisureCoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "PRACTICE1 Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. LeisureCoin Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. LeisureCoin Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. PRACTICE1 Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. PRACTICE1 Core is probably already running.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 LeisureCoin.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 10000 LeisureCoin.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PRACTICE1.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 PRACTICE1.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3815,8 +3815,8 @@ for example: alertnotify=echo %%s | mail -s "LeisureCoin Alert" admin@foo.com
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong LeisureCoin Core will not work properly.</source>
-        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong LeisureCoin Core will not work properly.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PRACTICE1 Core will not work properly.</source>
+        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong PRACTICE1 Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3847,8 +3847,8 @@ for example: alertnotify=echo %%s | mail -s "LeisureCoin Alert" admin@foo.com
         <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <source>(9333 could be used only on mainnet)</source>
-        <translation>(9333 could be used only on mainnet)</translation>
+        <source>(8888 could be used only on mainnet)</source>
+        <translation>(8888 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3859,8 +3859,8 @@ for example: alertnotify=echo %%s | mail -s "LeisureCoin Alert" admin@foo.com
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 9333 for mainnet)</source>
-        <translation>(must be 9333 for mainnet)</translation>
+        <source>(must be 8888 for mainnet)</source>
+        <translation>(must be 8888 for mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -3959,8 +3959,8 @@ for example: alertnotify=echo %%s | mail -s "LeisureCoin Alert" admin@foo.com
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The LeisureCoin Core Developers</source>
-        <translation>Copyright (C) 2017-%i The LeisureCoin Core Developers</translation>
+        <source>Copyright (C) 2017-%i The PRACTICE1 Core Developers</source>
+        <translation>Copyright (C) 2017-%i The PRACTICE1 Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4031,8 +4031,8 @@ for example: alertnotify=echo %%s | mail -s "LeisureCoin Alert" admin@foo.com
         <translation>Error loading wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of LeisureCoin Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of LeisureCoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PRACTICE1 Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4075,8 +4075,8 @@ for example: alertnotify=echo %%s | mail -s "LeisureCoin Alert" admin@foo.com
         <translation>Failed to read block</translation>
     </message>
     <message>
-        <source>Fee (in LeisureCoin/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in LeisureCoin/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in PRACTICE1/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in PRACTICE1/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4135,8 +4135,8 @@ for example: alertnotify=echo %%s | mail -s "LeisureCoin Alert" admin@foo.com
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. LeisureCoin Core is shutting down.</source>
-        <translation>Initialization sanity check failed. LeisureCoin Core is shutting down.</translation>
+        <source>Initialization sanity check failed. PRACTICE1 Core is shutting down.</source>
+        <translation>Initialization sanity check failed. PRACTICE1 Core is shutting down.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4707,8 +4707,8 @@ for example: alertnotify=echo %%s | mail -s "LeisureCoin Alert" admin@foo.com
         <translation>Wallet is locked.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart LeisureCoin Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart LeisureCoin Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart PRACTICE1 Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart PRACTICE1 Core to complete</translation>
     </message>
     <message>
         <source>Wallet options:</source>

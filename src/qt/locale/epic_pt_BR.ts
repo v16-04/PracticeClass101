@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços LeisureCoin para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your PRACTICE1 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços PRACTICE1 para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços LeisureCoin para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your PRACTICE1 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços PRACTICE1 para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>LeisureCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LeisureCoins from being stolen by malware infecting your computer.</source>
-        <translation>LeisureCoin vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas LeisureCoins de serem roubadas por malwares infectando seu computador.</translation>
+        <source>PRACTICE1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRACTICE1 from being stolen by malware infecting your computer.</source>
+        <translation>PRACTICE1 vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas PRACTICE1 de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LeisureCoin&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS LeisureCoin&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRACTICE1&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS PRACTICE1&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,7 +231,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a LeisureCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a PRACTICE1 Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -239,8 +239,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>O endereço LeisureCoin para assinar a mensagem</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>O endereço PRACTICE1 para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço LeisureCoin</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço PRACTICE1</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>O endereço LeisureCoin que assinou a mensagem</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>O endereço PRACTICE1 que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço LeisureCoin especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço PRACTICE1 especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,16 +582,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Send coins to a LeisureCoin address</source>
-        <translation>Enviar moedas para um endereço LeisureCoin</translation>
+        <source>Send coins to a PRACTICE1 address</source>
+        <translation>Enviar moedas para um endereço PRACTICE1</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and LeisureCoin: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e LeisureCoin: URIs)</translation>
+        <source>Request payments (generates QR codes and PRACTICE1: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e PRACTICE1: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,24 +602,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About LeisureCoin Core</source>
-        <translation>&amp;Sobre o LeisureCoin Core</translation>
+        <source>&amp;About PRACTICE1 Core</source>
+        <translation>&amp;Sobre o PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Show information about LeisureCoin Core</source>
-        <translation>Mostra informação sobre o LeisureCoin Core</translation>
+        <source>Show information about PRACTICE1 Core</source>
+        <translation>Mostra informação sobre o PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LeisureCoin</source>
-        <translation>Modificar opções de configuração para LeisureCoin</translation>
+        <source>Modify configuration options for PRACTICE1</source>
+        <translation>Modificar opções de configuração para PRACTICE1</translation>
     </message>
     <message>
-        <source>Sign messages with your LeisureCoin addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços LeisureCoin para provar que você os detém</translation>
+        <source>Sign messages with your PRACTICE1 addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços PRACTICE1 para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LeisureCoin addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços LeisureCoin especificados</translation>
+        <source>Verify messages to ensure they were signed with specified PRACTICE1 addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços PRACTICE1 especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -650,8 +650,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a LeisureCoin: URI or payment request</source>
-        <translation>Abrir um LeisureCoin: URI ou requisição de pagamento</translation>
+        <source>Open a PRACTICE1: URI or payment request</source>
+        <translation>Abrir um PRACTICE1: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the LeisureCoin Core help message to get a list with possible LeisureCoin command-line options</source>
-        <translation>Mostra a ajuda da LeisureCoin Core para receber uma lista com possíveis opções de linha de comando LeisureCoin</translation>
+        <source>Show the PRACTICE1 Core help message to get a list with possible PRACTICE1 command-line options</source>
+        <translation>Mostra a ajuda da PRACTICE1 Core para receber uma lista com possíveis opções de linha de comando PRACTICE1</translation>
     </message>
     <message>
-        <source>LeisureCoin Core client</source>
-        <translation>Cliente Core LeisureCoin</translation>
+        <source>PRACTICE1 Core client</source>
+        <translation>Cliente Core PRACTICE1</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -798,8 +798,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (LeisureCoin.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (LeisureCoin.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (PRACTICE1.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (PRACTICE1.conf). </translation>
     </message>
 </context>
 <context>
@@ -1079,8 +1079,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LeisureCoin address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de LeisureCoin</translation>
+        <source>The entered address "%1" is not a valid PRACTICE1 address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de PRACTICE1</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1125,16 +1125,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About LeisureCoin Core</source>
-        <translation>Sobre o LeisureCoin Core</translation>
+        <source>About PRACTICE1 Core</source>
+        <translation>Sobre o PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1168,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to LeisureCoin Core.</source>
-        <translation>Bem-vindo ao LeisureCoin Core.</translation>
+        <source>Welcome to PRACTICE1 Core.</source>
+        <translation>Bem-vindo ao PRACTICE1 Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where LeisureCoin Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde LeisureCoin Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where PRACTICE1 Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde PRACTICE1 Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>LeisureCoin Core will download and store a copy of the LeisureCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>LeisureCoin Core vai baixar e armazenar uma cópia da blockchain LeisureCoin. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>PRACTICE1 Core will download and store a copy of the PRACTICE1 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PRACTICE1 Core vai baixar e armazenar uma cópia da blockchain PRACTICE1. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1188,8 +1188,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1471,8 +1471,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the LeisureCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente LeisureCoin no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the PRACTICE1 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente PRACTICE1 no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1491,12 +1491,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start LeisureCoin after logging in to the system.</source>
-        <translation>Iniciar automaticamente LeisureCoin depois de logar no sistema.</translation>
+        <source>Automatically start PRACTICE1 after logging in to the system.</source>
+        <translation>Iniciar automaticamente PRACTICE1 depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start LeisureCoin on system login</source>
-        <translation>&amp;Iniciar LeisureCoin ao logar no sistema</translation>
+        <source>&amp;Start PRACTICE1 on system login</source>
+        <translation>&amp;Iniciar PRACTICE1 ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1511,12 +1511,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting LeisureCoin.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do LeisureCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRACTICE1.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do PRACTICE1.</translation>
     </message>
     <message>
-        <source>Connect to the LeisureCoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede LeisureCoin através de um proxy SOCKS5</translation>
+        <source>Connect to the PRACTICE1 network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede PRACTICE1 através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1646,8 +1646,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LeisureCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede LeisureCoin após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PRACTICE1 network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede PRACTICE1 após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1739,8 +1739,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a LeisureCoin address (e.g. %1)</source>
-        <translation>Insira um endereço LeisureCoin (e.g. %1)</translation>
+        <source>Enter a PRACTICE1 address (e.g. %1)</source>
+        <translation>Insira um endereço PRACTICE1 (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1989,8 +1989,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the LeisureCoin RPC console.</source>
-        <translation>Bem-vindo ao console da LeisureCoin RPC</translation>
+        <source>Welcome to the PRACTICE1 RPC console.</source>
+        <translation>Bem-vindo ao console da PRACTICE1 RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2241,8 +2241,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 LeisureCoin</source>
-        <translation>0 LeisureCoin</translation>
+        <source>0 PRACTICE1</source>
+        <translation>0 PRACTICE1</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2281,12 +2281,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uLeisureCoins and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLeisureCoins in fee,&lt;br /&gt;while "at least" pays 1000 uLeisureCoins. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uLeisureCoins e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uLeisureCoins em taxa,&lt;br /&gt; pagará pelo menos 1000 uLeisureCoins. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPRACTICE1 and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPRACTICE1 in fee,&lt;br /&gt;while "at least" pays 1000 uPRACTICE1. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uPRACTICE1 e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uPRACTICE1 em taxa,&lt;br /&gt; pagará pelo menos 1000 uPRACTICE1. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for LeisureCoin transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de LeisureCoin do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PRACTICE1 transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de PRACTICE1 do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2369,8 +2369,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>usando</translation>
     </message>
     <message>
-        <source>Warning: Invalid LeisureCoin address</source>
-        <translation>Aviso: endereço LeisureCoin inválido</translation>
+        <source>Warning: Invalid PRACTICE1 address</source>
+        <translation>Aviso: endereço PRACTICE1 inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2460,8 +2460,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The LeisureCoin address to send the payment to</source>
-        <translation>O endereço LeisureCoin para enviar o pagamento</translation>
+        <source>The PRACTICE1 address to send the payment to</source>
+        <translation>O endereço PRACTICE1 para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2523,8 +2523,8 @@ Favor verificar o endereço e tente novamente.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>LeisureCoin Core is shutting down...</source>
-        <translation>LeisureCoin Core está desligando...</translation>
+        <source>PRACTICE1 Core is shutting down...</source>
+        <translation>PRACTICE1 Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2542,8 +2542,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>O endereço LeisureCoin para assinar a mensagem</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>O endereço PRACTICE1 para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2574,16 +2574,16 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço LeisureCoin</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço PRACTICE1</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>O endereço LeisureCoin que assinou a mensagem</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>O endereço PRACTICE1 que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço LeisureCoin especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço PRACTICE1 especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,8 +2665,8 @@ Favor verificar o endereço e tente novamente.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2685,8 +2685,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Os desenvolvedores do PIVX Core</translation>
     </message>
     <message>
-        <source>The LeisureCoin Core developers</source>
-        <translation>Os desenvolvedores do LeisureCoin Core</translation>
+        <source>The PRACTICE1 Core developers</source>
+        <translation>Os desenvolvedores do PRACTICE1 Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3157,8 +3157,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 LeisureCoin.</source>
-        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 LeisureCoin.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 PRACTICE1.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 PRACTICE1.</translation>
     </message>
 </context>
 <context>
@@ -3201,14 +3201,14 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
 </context>
 <context>
-    <name>LeisureCoin-core</name>
+    <name>PRACTICE1-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all LeisureCoin specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas LeisureCoin (Masternodes, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all PRACTICE1 specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas PRACTICE1 (Masternodes, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3223,12 +3223,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in LeisureCoin/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em LeisureCoin/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in PRACTICE1/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em PRACTICE1/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LeisureCoin/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em LeisureCoin/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in PRACTICE1/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em PRACTICE1/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3251,8 +3251,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 LeisureCoin.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 LeisureCoin.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PRACTICE1.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 PRACTICE1.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3267,8 +3267,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong LeisureCoin Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core LeisureCoin não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PRACTICE1 Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core PRACTICE1 não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3283,8 +3283,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(9333 could be used only on mainnet)</source>
-        <translation>(9333 could be used only on mainnet)</translation>
+        <source>(8888 could be used only on mainnet)</source>
+        <translation>(8888 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3295,8 +3295,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 9333 for mainnet)</source>
-        <translation>(deve ser 9333 para mainnet)</translation>
+        <source>(must be 8888 for mainnet)</source>
+        <translation>(deve ser 8888 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
@@ -3347,8 +3347,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The LeisureCoin Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do LeisureCoin Core</translation>
+        <source>Copyright (C) 2017-%i The PRACTICE1 Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3399,8 +3399,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of LeisureCoin Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da LeisureCoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PRACTICE1 Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3435,8 +3435,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in LeisureCoin/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em LeisureCoin/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in PRACTICE1/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em PRACTICE1/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3847,8 +3847,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart LeisureCoin Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o LeisureCoin Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart PRACTICE1 Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o PRACTICE1 Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

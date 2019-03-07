@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../LeisureCoin.qrc"/>
+  <include location="../PRACTICE1.qrc"/>
  </resources>
  <connections/>
 </ui>

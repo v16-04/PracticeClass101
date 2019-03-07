@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出LeisureCoin幣的位址</translation>
+        <translation>選擇要匯出PRACTICE1幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收LeisureCoin幣的位址</translation>
+        <translation>選擇要接收PRACTICE1幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 LeisureCoin 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your PRACTICE1 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 PRACTICE1 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 LeisureCoin 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your PRACTICE1 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 PRACTICE1 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,16 +164,16 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>LeisureCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LeisureCoins from being stolen by malware infecting your computer.</source>
-        <translation>LeisureCoin 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 LeisureCoin 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>PRACTICE1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRACTICE1 from being stolen by malware infecting your computer.</source>
+        <translation>PRACTICE1 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 PRACTICE1 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>確定要加密你的錢包?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LeisureCoin&lt;/b&gt;!</source>
-        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(LeisureCoin)&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRACTICE1&lt;/b&gt;!</source>
+        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(PRACTICE1)&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,16 +227,16 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a LeisureCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>輸入你想 BIP 38 加密的 LeisureCoin 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
+        <source>Enter a PRACTICE1 Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>輸入你想 BIP 38 加密的 PRACTICE1 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>對訊息簽名的 LeisureCoin 位址</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>對訊息簽名的 PRACTICE1 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,8 +267,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>使用簽章來證明你是該  LeisureCoin 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>使用簽章來證明你是該  PRACTICE1 位址的擁有者,</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>此訊息之 LeisureCoin 位址已簽章於</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>此訊息之 PRACTICE1 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>驗證訊息以確保該  LeisureCoin 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>驗證訊息以確保該  PRACTICE1 位址已被簽章</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Send coins to a LeisureCoin address</source>
-        <translation>送出錢幣到 LeisureCoin 地址</translation>
+        <source>Send coins to a PRACTICE1 address</source>
+        <translation>送出錢幣到 PRACTICE1 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and LeisureCoin: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 LeisureCoin 位址)</translation>
+        <source>Request payments (generates QR codes and PRACTICE1: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 PRACTICE1 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,24 +602,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About LeisureCoin Core</source>
-        <translation>&amp;關於 LeisureCoin Core</translation>
+        <source>&amp;About PRACTICE1 Core</source>
+        <translation>&amp;關於 PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Show information about LeisureCoin Core</source>
-        <translation>顯示 LeisureCoin Core 相關資訊</translation>
+        <source>Show information about PRACTICE1 Core</source>
+        <translation>顯示 PRACTICE1 Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for LeisureCoin</source>
-        <translation>修改 LeisureCoin 設定</translation>
+        <source>Modify configuration options for PRACTICE1</source>
+        <translation>修改 PRACTICE1 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your LeisureCoin addresses to prove you own them</source>
-        <translation>使用你的 LeisureCoin 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your PRACTICE1 addresses to prove you own them</source>
+        <translation>使用你的 PRACTICE1 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LeisureCoin addresses</source>
-        <translation>驗證訊息簽章與 LeisureCoin 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified PRACTICE1 addresses</source>
+        <translation>驗證訊息簽章與 PRACTICE1 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a LeisureCoin: URI or payment request</source>
-        <translation>打開LeisureCoin: 位址或付款請求 </translation>
+        <source>Open a PRACTICE1: URI or payment request</source>
+        <translation>打開PRACTICE1: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the LeisureCoin Core help message to get a list with possible LeisureCoin command-line options</source>
-        <translation>顯示 LeisureCoin Core 幫助訊息以取得 LeisureCoin 命令列表選項</translation>
+        <source>Show the PRACTICE1 Core help message to get a list with possible PRACTICE1 command-line options</source>
+        <translation>顯示 PRACTICE1 Core 幫助訊息以取得 PRACTICE1 命令列表選項</translation>
     </message>
     <message>
-        <source>LeisureCoin Core client</source>
-        <translation>LeisureCoin Core 客戶端</translation>
+        <source>PRACTICE1 Core client</source>
+        <translation>PRACTICE1 Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     </context>
 <context>
@@ -814,8 +814,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>對訊息簽名的 LeisureCoin 位址</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>對訊息簽名的 PRACTICE1 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -838,16 +838,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>使用簽章來證明你是該  LeisureCoin 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>使用簽章來證明你是該  PRACTICE1 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>此訊息之 LeisureCoin 位址已簽章於</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>此訊息之 PRACTICE1 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>驗證訊息以確保該  LeisureCoin 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>驗證訊息以確保該  PRACTICE1 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -885,8 +885,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     </context>
 <context>
@@ -949,6 +949,6 @@
     </message>
     </context>
 <context>
-    <name>LeisureCoin-core</name>
+    <name>PRACTICE1-core</name>
     </context>
 </TS>

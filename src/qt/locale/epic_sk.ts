@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše LeisureCoin adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your PRACTICE1 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše PRACTICE1 adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your LeisureCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše LeisureCoin adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your PRACTICE1 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše PRACTICE1 adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>LeisureCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LeisureCoins from being stolen by malware infecting your computer.</source>
-        <translation>LeisureCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše LeisureCoin pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>PRACTICE1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRACTICE1 from being stolen by malware infecting your computer.</source>
+        <translation>PRACTICE1 sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše PRACTICE1 pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LeisureCoin&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY LeisureCoin &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRACTICE1&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY PRACTICE1 &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a LeisureCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu LeisureCoin, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a PRACTICE1 Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu PRACTICE1, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>Adresa LeisureCoin, ktorou chcete správu podpísať</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>Adresa PRACTICE1, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto LeisureCoin adresy</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto PRACTICE1 adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>LeisureCoin adresa, ktorou bola správa podpísaná</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>PRACTICE1 adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou LeisureCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou PRACTICE1 adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,16 +594,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Send coins to a LeisureCoin address</source>
-        <translation>Odoslať mince na adresu LeisureCoin</translation>
+        <source>Send coins to a PRACTICE1 address</source>
+        <translation>Odoslať mince na adresu PRACTICE1</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and LeisureCoin: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a LeisureCoin: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and PRACTICE1: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a PRACTICE1: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,24 +614,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About LeisureCoin Core</source>
-        <translation>O LeisureCoin Core</translation>
+        <source>&amp;About PRACTICE1 Core</source>
+        <translation>O PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Show information about LeisureCoin Core</source>
-        <translation>Zobraziť informácie o LeisureCoin Core</translation>
+        <source>Show information about PRACTICE1 Core</source>
+        <translation>Zobraziť informácie o PRACTICE1 Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LeisureCoin</source>
-        <translation>Zmeňte možnosti konfigurácie pre LeisureCoin</translation>
+        <source>Modify configuration options for PRACTICE1</source>
+        <translation>Zmeňte možnosti konfigurácie pre PRACTICE1</translation>
     </message>
     <message>
-        <source>Sign messages with your LeisureCoin addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy LeisureCoin, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your PRACTICE1 addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy PRACTICE1, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LeisureCoin addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými LeisureCoin adresami</translation>
+        <source>Verify messages to ensure they were signed with specified PRACTICE1 addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými PRACTICE1 adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -662,8 +662,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a LeisureCoin: URI or payment request</source>
-        <translation>Otvorte LeisureCoin: URI alebo žiadosť o platbu</translation>
+        <source>Open a PRACTICE1: URI or payment request</source>
+        <translation>Otvorte PRACTICE1: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,12 +674,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the LeisureCoin Core help message to get a list with possible LeisureCoin command-line options</source>
-        <translation>Zobraziť pomocnú správu programu LeisureCoin Core a získajte zoznam možností príkazového riadka LeisureCoin</translation>
+        <source>Show the PRACTICE1 Core help message to get a list with possible PRACTICE1 command-line options</source>
+        <translation>Zobraziť pomocnú správu programu PRACTICE1 Core a získajte zoznam možností príkazového riadka PRACTICE1</translation>
     </message>
     <message>
-        <source>LeisureCoin Core client</source>
-        <translation>LeisureCoin Core klient</translation>
+        <source>PRACTICE1 Core client</source>
+        <translation>PRACTICE1 Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (LeisureCoin.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (LeisureCoin.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (PRACTICE1.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (PRACTICE1.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -900,15 +900,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1082,8 +1082,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LeisureCoin address to sign the message with</source>
-        <translation>Adresa LeisureCoin, ktorou chcete správu podpísať</translation>
+        <source>The PRACTICE1 address to sign the message with</source>
+        <translation>Adresa PRACTICE1, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1106,16 +1106,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LeisureCoin address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto LeisureCoin adresy</translation>
+        <source>Sign the message to prove you own this PRACTICE1 address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto PRACTICE1 adresy</translation>
     </message>
     <message>
-        <source>The LeisureCoin address the message was signed with</source>
-        <translation>LeisureCoin adresa, ktorou bola správa podpísaná</translation>
+        <source>The PRACTICE1 address the message was signed with</source>
+        <translation>PRACTICE1 adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LeisureCoin address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou LeisureCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified PRACTICE1 address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou PRACTICE1 adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LeisureCoin Core</source>
-        <translation>LeisureCoin Core</translation>
+        <source>PRACTICE1 Core</source>
+        <translation>PRACTICE1 Core</translation>
     </message>
     </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>LeisureCoin-core</name>
+    <name>PRACTICE1-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>
