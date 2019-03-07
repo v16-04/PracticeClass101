@@ -305,7 +305,7 @@ void AddressTableModel::updateEntry(const QString& address,
     const QString& purpose,
     int status)
 {
-    // Update address book model from LeisureCoin core
+    // Update address book model from PRACTICE1 core
     priv->updateEntry(address, label, isMine, purpose, status);
 }
 

@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The LeisureCoin developers
+// Copyright (c) 2018 The PRACTICE1 developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(LeisureCoin);
-    unitlist.append(mLeisureCoin);
-    unitlist.append(uLeisureCoin);
+    unitlist.append(PRACTICE1);
+    unitlist.append(mPRACTICE1);
+    unitlist.append(uPRACTICE1);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case LeisureCoin:
-    case mLeisureCoin:
-    case uLeisureCoin:
+    case PRACTICE1:
+    case mPRACTICE1:
+    case uPRACTICE1:
         return true;
     default:
         return false;
@@ -41,11 +41,11 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case LeisureCoin:
+    case PRACTICE1:
         return QString("bitg");
-    case mLeisureCoin:
+    case mPRACTICE1:
         return QString("mbitg");
-    case uLeisureCoin:
+    case uPRACTICE1:
         return QString::fromUtf8("ubitg");
     default:
         return QString("???");
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case LeisureCoin:
-            return QString("LeisureCoin");
-        case mLeisureCoin:
-            return QString("mLeisureCoin");
-        case uLeisureCoin:
-            return QString::fromUtf8("μLeisureCoin");
+        case PRACTICE1:
+            return QString("PRACTICE1");
+        case mPRACTICE1:
+            return QString("mPRACTICE1");
+        case uPRACTICE1:
+            return QString::fromUtf8("μPRACTICE1");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case LeisureCoin:
+        case PRACTICE1:
             return QString("tLeiureCoin");
-        case mLeisureCoin:
-            return QString("mtLeisureCoin");
-        case uLeisureCoin:
-            return QString::fromUtf8("μtLeisureCoin");
+        case mPRACTICE1:
+            return QString("mtPRACTICE1");
+        case uPRACTICE1:
+            return QString::fromUtf8("μtPRACTICE1");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case LeisureCoin:
-            return QString("LeisureCoin");
-        case mLeisureCoin:
-            return QString("Milli-LeisureCoin (1 / 1" THIN_SP_UTF8 "000)");
-        case uLeisureCoin:
-            return QString("Micro-LeisureCoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case PRACTICE1:
+            return QString("PRACTICE1");
+        case mPRACTICE1:
+            return QString("Milli-PRACTICE1 (1 / 1" THIN_SP_UTF8 "000)");
+        case uPRACTICE1:
+            return QString("Micro-PRACTICE1 (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case LeisureCoin:
-            return QString("TestLeisureCoin");
-        case mLeisureCoin:
-            return QString("Milli-TestLeisureCoin (1 / 1" THIN_SP_UTF8 "000)");
-        case uLeisureCoin:
-            return QString("Micro-TestLeisureCoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case PRACTICE1:
+            return QString("TestPRACTICE1");
+        case mPRACTICE1:
+            return QString("Milli-TestPRACTICE1 (1 / 1" THIN_SP_UTF8 "000)");
+        case uPRACTICE1:
+            return QString("Micro-TestPRACTICE1 (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case LeisureCoin:
+    case PRACTICE1:
         return 100000000;
-    case mLeisureCoin:
+    case mPRACTICE1:
         return 100000;
-    case uLeisureCoin:
+    case uPRACTICE1:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case LeisureCoin:
+    case PRACTICE1:
         return 8;
-    case mLeisureCoin:
+    case mPRACTICE1:
         return 5;
-    case uLeisureCoin:
+    case uPRACTICE1:
         return 2;
     default:
         return 0;
