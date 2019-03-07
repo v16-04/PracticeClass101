@@ -49,6 +49,9 @@ SAMPLE KEY3
 049f58cf48a5e38b2f8af1c29c233a805fe818a3084122bdbc84469405d92b3bdc49b890b3e41bf006fe1d223c5a692557271b161efa4f37643bb5621aa9482cd3
 
 
+[List of Address Prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes)
+
+
 
 //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
 
