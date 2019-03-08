@@ -68,7 +68,7 @@ QString BitcoinUnits::name(int unit)
     } else {
         switch (unit) {
         case PRACTICE1:
-            return QString("tLeiureCoin");
+            return QString("tPRACTICE1");
         case mPRACTICE1:
             return QString("mtPRACTICE1");
         case uPRACTICE1:
