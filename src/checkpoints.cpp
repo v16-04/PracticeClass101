@@ -38,7 +38,7 @@ bool CheckBlock(int nHeight, const uint256& hash, bool fMatchesCheckpoint)
     // If looking for an exact match, then return false
     if (i == checkpoints.end()) return !fMatchesCheckpoint;
     //return hash == i->second;
-    return false //delete this later
+    return false; //delete this line & activate later after new checkpoints
 }
 
 //! Guess how far we are in the verification process at the given block index
@@ -82,7 +82,7 @@ int GetTotalBlocksEstimate()
     const MapCheckpoints& checkpoints = *Params().Checkpoints().mapCheckpoints;
 
     //return checkpoints.rbegin()->first;
-    return false //delete this later
+    return false; //delete this later
 }
 
 CBlockIndex* GetLastCheckpoint()
@@ -97,7 +97,7 @@ CBlockIndex* GetLastCheckpoint()
         BlockMap::const_iterator t = mapBlockIndex.find(hash);
         if (t != mapBlockIndex.end())
             //return t->second;
-            return false //delete this later
+            return false; //delete this later
     }
     return NULL;
 }
