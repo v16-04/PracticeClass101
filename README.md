@@ -57,15 +57,28 @@ SAMPLE KEY3
 
 //printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
 
+----------------------------------------------------------------------------------
 
-* True value (after ./TESTCOINd) :
+k@k-VirtualBox:~/Desktop/PracticeClass101/src$ ./PRACTICE1d
 
-- Genesis : "0x"
+genesis.GetHash = 76e0e633ae0102cbb6935d7896c204c4bccd66f0b2966d304be1e1cbbd7a85c0
 
-- Merkle hash : "0x"
+genesis.hashMerkleRoot = ce94b6c141f89fd2515763a81701a984e430bada2b31f071b63f038b62b9de2c
+
+PRACTICE1d: chainparams.cpp:142: CMainParams::CMainParams(): Assertion `hashGenesisBlock == uint256("0x00000ef21d678d256b9bc3a3bc0c7c5ec2926a3301408f4d528700e0827082eb")' failed.
+Aborted (core dumped)
+
+k@k-VirtualBox:~/Desktop/PracticeClass101/src$ 
 
 
+* True value (after ./PRACTICE1d) :
 
+- Genesis : "0x76e0e633ae0102cbb6935d7896c204c4bccd66f0b2966d304be1e1cbbd7a85c0"
+
+- Merkle hash : "0xce94b6c141f89fd2515763a81701a984e430bada2b31f071b63f038b62b9de2c"
+
+
+----------------------------------------------------------------------------------
 
 Name & Port changes
 ===================
