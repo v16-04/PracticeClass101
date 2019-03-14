@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0,      uint256("0x00000ef21d678d256b9bc3a3bc0c7c5ec2926a3301408f4d528700e0827082eb"));
+    (0,      uint256("0x76e0e633ae0102cbb6935d7896c204c4bccd66f0b2966d304be1e1cbbd7a85c0"));
     //(1000,      uint256("0x0703a06a675224d03e0e413a2277aec4067f5d4949b01df0bcfbbd4d1467c15c"))
     //(25000,      uint256("0x7462342a89cfac8115ae7f4baba5c9323686a990cc555aca5879f29ea417fe05"));
 
@@ -135,15 +135,12 @@ public:
         genesis.nBits = 504365040;
         genesis.nNonce = 1168826;
         
-        printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-        printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        printf("genesis.nTime = %u \n", genesis.nTime);
-        printf("genesis.nNonce = %u \n", genesis.nNonce);
-        printf("genesis.nBits = %u \n", genesis.nBits);
-
+        //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        //printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
+        
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000ef21d678d256b9bc3a3bc0c7c5ec2926a3301408f4d528700e0827082eb"));
-        assert(genesis.hashMerkleRoot == uint256("0xb5789963fe108433109c84283c86a7c2b95a55c176762130f967215fbbe1bf2b"));
+        assert(hashGenesisBlock == uint256("0x76e0e633ae0102cbb6935d7896c204c4bccd66f0b2966d304be1e1cbbd7a85c0"));
+        assert(genesis.hashMerkleRoot == uint256("0xce94b6c141f89fd2515763a81701a984e430bada2b31f071b63f038b62b9de2c"));
 
         // DNS Seeding
         //vSeeds.push_back(CDNSSeedData("149.28.114.184", "149.28.114.184"));
