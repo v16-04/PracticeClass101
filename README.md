@@ -52,6 +52,11 @@ SAMPLE KEY3
 [List of Address Prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes)
 
 
+//printf("genesis.nTime = %u \n", genesis.nTime);
+
+//printf("genesis.nNonce = %u \n", genesis.nNonce);
+
+//printf("genesis.nBits = %u \n", genesis.nBits);   //(after debug.txt mentioned wrong nBits)
 
 //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
 
@@ -76,6 +81,8 @@ k@k-VirtualBox:~/Desktop/PracticeClass101/src$
 - Genesis : "0x76e0e633ae0102cbb6935d7896c204c4bccd66f0b2966d304be1e1cbbd7a85c0"
 
 - Merkle hash : "0xce94b6c141f89fd2515763a81701a984e430bada2b31f071b63f038b62b9de2c"
+
+- correct nBit : 
 
 
 ----------------------------------------------------------------------------------
