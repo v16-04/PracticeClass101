@@ -52,11 +52,11 @@ SAMPLE KEY3
 [List of Address Prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes)
 
 
-//printf("genesis.nTime = %u \n", genesis.nTime);
+//printf("genesis.nTime = %u \n", genesis.nTime.ToString().c_str());
 
-//printf("genesis.nNonce = %u \n", genesis.nNonce);
+//printf("genesis.nNonce = %u \n", genesis.nNonce.ToString().c_str());
 
-//printf("genesis.nBits = %u \n", genesis.nBits);   //(after debug.txt mentioned wrong nBits)
+//printf("genesis.nBits = %u \n", genesis.nBits.ToString().c_str());   //(after debug.txt mentioned wrong nBits)
 
 //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
 
@@ -111,4 +111,16 @@ find . -type f -print0 | xargs -0 sed -i 's/18888/18888/g'  //(P2P) -testnet
 find . -type f -print0 | xargs -0 sed -i 's/18887/18887/g'  //(RPC) -testnet
 
 
+Before compile
+==============
+
+chmod u+x share/genbuild.sh && chmod u+x src/leveldb/build_detect_platform
+
+chmod u+x ./autogen.sh && ./autogen.sh
+
+./configure --disable-dependency-tracking --enable-tests=no --without-gui --without-miniupnpc
+
+make
+
+make install
 
