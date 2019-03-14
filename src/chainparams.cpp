@@ -135,11 +135,11 @@ public:
         genesis.nBits = 504365040;
         genesis.nNonce = 1168826;
         
-        printf("genesis.nTime = %u \n", genesis.nTime.ToString().c_str());
-        printf("genesis.nNonce = %u \n", genesis.nNonce.ToString().c_str());
-        printf("genesis.nBits = %u \n", genesis.nBits.ToString().c_str());
         printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
+        printf("genesis.nTime = %u \n", genesis.nTime);
+        printf("genesis.nNonce = %u \n", genesis.nNonce);
+        printf("genesis.nBits = %u \n", genesis.nBits);
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x00000ef21d678d256b9bc3a3bc0c7c5ec2926a3301408f4d528700e0827082eb"));
